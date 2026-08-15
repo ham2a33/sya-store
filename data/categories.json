@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "earrings",
+    "title": "Серьги",
+    "description": "Все серьги SYA.",
+    "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 1,
+    "active": true
+  },
+  {
+    "slug": "rings",
+    "title": "Кольца",
+    "description": "Все кольца SYA.",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 2,
+    "active": true
+  },
+  {
+    "slug": "pendants",
+    "title": "Подвески",
+    "description": "Все подвески SYA.",
+    "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 3,
+    "active": true
+  },
+  {
+    "slug": "bracelets",
+    "title": "Браслеты",
+    "description": "Все браслеты SYA.",
+    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 4,
+    "active": true
+  },
+  {
+    "slug": "chains",
+    "title": "Цепочки",
+    "description": "Все цепочки SYA.",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 5,
+    "active": true
+  },
+  {
+    "slug": "sets",
+    "title": "Комплекты",
+    "description": "Все комплекты SYA.",
+    "image": "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 6,
+    "active": true
+  },
+  {
+    "slug": "chokers",
+    "title": "Чокеры",
+    "description": "Все чокеры SYA.",
+    "image": "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 7,
+    "active": true
+  },
+  {
+    "slug": "cuffs",
+    "title": "Каффы",
+    "description": "Все каффы SYA.",
+    "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 8,
+    "active": true
+  },
+  {
+    "slug": "accessories",
+    "title": "Аксессуары",
+    "description": "Все аксессуары SYA.",
+    "image": "https://images.unsplash.com/photo-1535632066922-ab7c9ab60908?auto=format&fit=crop&w=900&h=360&q=85",
+    "sortOrder": 9,
+    "active": true
+  }
+]

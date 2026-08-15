@@ -1,0 +1,51 @@
+[
+  {
+    "id": "promo",
+    "name": "-20%",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1800&q=85",
+    "eyebrow": "ТОЛЬКО ДО 31 АВГУСТА",
+    "headline": "-20%",
+    "title": "НА ИЗБРАННЫЕ\nУКРАШЕНИЯ",
+    "subtitle": "Сияйте этим летом вместе с SYA ✨",
+    "cta": "СМОТРЕТЬ КОЛЛЕКЦИЮ",
+    "href": "/catalog",
+    "sortOrder": 1,
+    "active": true
+  },
+  {
+    "id": "glow",
+    "name": "MADE TO GLOW",
+    "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1800&q=85",
+    "eyebrow": "SYA",
+    "headline": "MADE TO GLOW",
+    "subtitle": "Украшения, которые\nподчеркивают вашу красоту",
+    "cta": "СМОТРЕТЬ КОЛЛЕКЦИЮ",
+    "href": "/catalog",
+    "sortOrder": 2,
+    "active": true
+  },
+  {
+    "id": "new",
+    "name": "НОВИНКИ",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1800&q=85",
+    "eyebrow": "NEW COLLECTION",
+    "headline": "НОВИНКИ",
+    "subtitle": "Свежие украшения\nдля нового сезона",
+    "cta": "СМОТРЕТЬ НОВИНКИ",
+    "href": "/catalog",
+    "sortOrder": 3,
+    "active": true
+  },
+  {
+    "id": "bestsellers",
+    "name": "БЕСТСЕЛЛЕРЫ",
+    "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=1800&q=85",
+    "eyebrow": "BESTSELLERS",
+    "headline": "БЕСТСЕЛЛЕРЫ",
+    "subtitle": "Любимые украшения\nнаших клиентов",
+    "cta": "СМОТРЕТЬ БЕСТСЕЛЛЕРЫ",
+    "href": "/catalog?sort=popular",
+    "sortOrder": 4,
+    "active": true
+  }
+]

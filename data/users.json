@@ -1,0 +1,8 @@
+[
+  {
+    "id": "admin-1",
+    "email": "admin@sya.store",
+    "passwordHash": "ac7b8a491900e17456d64c6cc4fa875d:3dd62e79ad8f6629bc326b7dc0fa2cd28707c415ba0a75842d718a7ae04d65c88dd071e9ccdaac6503d68f876f5d135a82189a10472a565874fc3660de396eaa",
+    "role": "admin"
+  }
+]
