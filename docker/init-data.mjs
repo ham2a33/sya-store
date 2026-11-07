@@ -9,8 +9,8 @@ const UPLOAD_DIR = '/app/public/uploads';
 const UPLOAD_SEED_DIR = '/app/seed-uploads';
 
 const stores = [
-  { name: 'products.json', type: 'array', required: ['id', 'name', 'price', 'stock'], seedMustBeNonempty: true },
-  { name: 'categories.json', type: 'array', required: ['slug', 'title'], seedMustBeNonempty: true },
+  { name: 'products.json', type: 'array', required: ['id', 'name', 'price', 'stock'] },
+  { name: 'categories.json', type: 'array', required: ['slug', 'title'] },
   { name: 'banners.json', type: 'array', required: ['id'] },
   { name: 'homepage.json', type: 'object' },
   { name: 'media.json', type: 'array', required: ['id', 'url', 'filename'] },
@@ -102,9 +102,6 @@ async function readJson(file, name, definition) {
     fail(`${name} is malformed or unreadable.`);
   }
   validateStore(name, parsed, definition);
-  if (definition.seedMustBeNonempty && parsed.length === 0) {
-    fail(`${name} seed is unexpectedly empty.`);
-  }
   return parsed;
 }
 
