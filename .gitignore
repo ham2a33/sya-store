@@ -1,0 +1,30 @@
+node_modules/
+.next/
+.DS_Store
+
+# Local credentials and environment settings
+.env*
+!.env.example
+
+# Local customer and administrator records
+/data/orders.json
+/data/users.json
+
+# Local point-in-time backups (may contain customer data)
+/security-backups/
+/backups/
+
+# Self-hosted deployment secrets, certificates, and ACME challenge state
+/deploy/letsencrypt/
+/deploy/acme-webroot/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+.npmrc
+.aws/
+.ssh/
+id_rsa*
+id_ed25519*
