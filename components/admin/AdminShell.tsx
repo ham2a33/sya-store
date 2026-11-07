@@ -8,6 +8,7 @@ const NAV = [
   { href: '/admin/categories', label: 'Категории' },
   { href: '/admin/orders', label: 'Заказы' },
   { href: '/admin/homepage', label: 'Главная' },
+  { href: '/admin/settings/whatsapp', label: 'Настройки' },
   { href: '/admin/media', label: 'Медиа' },
 ];
 

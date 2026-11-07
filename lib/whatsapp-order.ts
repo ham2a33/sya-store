@@ -1,48 +1,81 @@
 import { formatPrice } from './products';
 
+export const DEFAULT_WHATSAPP_TEMPLATE = [
+  'Здравствуйте! Хочу оформить заказ в магазине SYA.',
+  '',
+  'Товары:',
+  '{{items}}',
+  '',
+  'Итого: {{total}}',
+  '',
+  'Данные клиента:',
+  'Имя: {{name}}',
+  'Телефон: {{phone}}',
+  'Email: {{email}}',
+  'Город: {{city}}',
+  'Адрес: {{address}}',
+  'Способ получения: {{deliveryMethod}}',
+  'Комментарий к заказу: {{comment}}',
+].join('\n');
+
 type WhatsAppLineItem = {
   productId: string;
+  article?: string;
   name: string;
   price: number;
   quantity: number;
 };
 
+export type WhatsAppOrderDetails = {
+  name: string;
+  phone: string;
+  email: string;
+  city: string;
+  address: string;
+  deliveryMethod: string;
+  comment: string;
+};
+
+export function renderWhatsAppTemplate(
+  template: string,
+  values: Record<string, string>,
+): string {
+  return template.replace(/\{\{\s*([a-zA-Z]+)\s*\}\}/g, (token, key: string) => values[key] ?? token);
+}
+
 export function buildWhatsAppOrderMessage(
   lineItems: WhatsAppLineItem[],
-  origin: string,
+  total: number,
+  details: WhatsAppOrderDetails,
+  template = DEFAULT_WHATSAPP_TEMPLATE,
 ): string {
-  const lines = ['Здравствуйте! Хочу заказать товары с сайта SYA:', ''];
+  const items = lineItems.map((item, index) => [
+    `${index + 1}. ${item.name}`,
+    `   Артикул: ${item.article || item.productId}`,
+    `   Количество: ${item.quantity}`,
+    `   Цена: ${formatPrice(item.price)} за шт.`,
+  ].join('\n')).join('\n');
 
-  lineItems.forEach((item, index) => {
-    lines.push(`${index + 1}. ${item.name}`);
-    lines.push(`Количество: ${item.quantity}`);
-    lines.push(
-      item.quantity > 1
-        ? `Цена: ${formatPrice(item.price)} за шт.`
-        : `Цена: ${formatPrice(item.price)}`,
-    );
-    lines.push(`${origin}/product/${item.productId}`);
-    lines.push('');
+  return renderWhatsAppTemplate(template, {
+    items,
+    total: formatPrice(total),
+    name: details.name || '—',
+    phone: details.phone || '—',
+    email: details.email || '—',
+    city: details.city || '—',
+    address: details.address || '—',
+    deliveryMethod: details.deliveryMethod || '—',
+    comment: details.comment || '—',
   });
-
-  const totalItems = lineItems.reduce((sum, item) => sum + item.quantity, 0);
-  const total = lineItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
-
-  lines.push(`Итого товаров: ${totalItems}`);
-  lines.push(`Итого: ${formatPrice(total)}`);
-  lines.push('');
-  lines.push('Подскажите, пожалуйста, по наличию и доставке.');
-
-  return lines.join('\n');
 }
 
 export function buildWhatsAppOrderUrl(number: string, message: string): string {
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
-export function openWhatsAppOrder(url: string): void {
-  const opened = window.open(url, '_blank', 'noopener,noreferrer');
-  if (!opened) {
-    window.location.href = url;
-  }
+export function openWhatsAppOrder(url: string): boolean {
+  const opened = window.open(url, '_blank');
+  if (!opened) return false;
+  opened.opener = null;
+  return true;
 }

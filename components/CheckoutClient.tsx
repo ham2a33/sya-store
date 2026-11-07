@@ -5,12 +5,12 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { formatPrice, type Product } from '../lib/products';
 import { groupCartQuantities, isValidEmail } from '../lib/cart-utils';
-import { getStoreWhatsAppNumber, isStoreWhatsAppConfigured } from '../lib/store-config';
 import {
   buildWhatsAppOrderMessage,
   buildWhatsAppOrderUrl,
   openWhatsAppOrder,
 } from '../lib/whatsapp-order';
+import type { WhatsAppSettings } from '../lib/site-settings-store';
 import { useCart } from '../context/CartContext';
 import { useProducts } from '../context/ProductsContext';
 import SiteHeader from './SiteHeader';
@@ -85,6 +85,8 @@ export default function CheckoutClient() {
   const [submitting, setSubmitting] = useState(false);
   const [formError, setFormError] = useState('');
   const [whatsappError, setWhatsappError] = useState('');
+  const [whatsappSettings, setWhatsappSettings] = useState<WhatsAppSettings | null>(null);
+  const [whatsappSettingsLoaded, setWhatsappSettingsLoaded] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
   const [values, setValues] = useState<FormValues>({
     name: '',
@@ -98,6 +100,14 @@ export default function CheckoutClient() {
 
   useEffect(() => {
     setHydrated(true);
+    fetch('/api/settings/whatsapp', { cache: 'no-store' })
+      .then(async (response) => {
+        if (!response.ok) throw new Error('settings request failed');
+        const data = (await response.json()) as { whatsapp: WhatsAppSettings };
+        setWhatsappSettings(data.whatsapp);
+      })
+      .catch(() => setWhatsappSettings(null))
+      .finally(() => setWhatsappSettingsLoaded(true));
   }, []);
 
   const lineItems = useMemo(
@@ -196,14 +206,30 @@ export default function CheckoutClient() {
 
     if (!lineItems.length) return;
 
-    if (!isStoreWhatsAppConfigured()) {
+    if (!whatsappSettings?.enabled) {
+      setWhatsappError('Заказ через WhatsApp сейчас отключён магазином.');
+      return;
+    }
+
+    const number = whatsappSettings.phone.replace(/\D/g, '');
+    if (!/^\d{8,15}$/.test(number)) {
       setWhatsappError('WhatsApp магазина пока не настроен.');
       return;
     }
 
-    const message = buildWhatsAppOrderMessage(lineItems, window.location.origin);
-    const url = buildWhatsAppOrderUrl(getStoreWhatsAppNumber(), message);
-    openWhatsAppOrder(url);
+    const message = buildWhatsAppOrderMessage(lineItems, total, {
+      name: values.name.trim(),
+      phone: values.phone.trim(),
+      email: values.email.trim(),
+      city: values.deliveryMethod === 'delivery' ? values.city.trim() : '',
+      address: values.deliveryMethod === 'delivery' ? values.address.trim() : '',
+      deliveryMethod: values.deliveryMethod === 'delivery' ? 'Доставка' : 'Самовывоз',
+      comment: values.comment.trim(),
+    }, whatsappSettings.messageTemplate);
+    const url = buildWhatsAppOrderUrl(number, message);
+    if (!openWhatsAppOrder(url)) {
+      setWhatsappError('Браузер заблокировал новое окно WhatsApp. Разрешите всплывающие окна и повторите попытку.');
+    }
   };
 
   if (!hydrated) {
@@ -388,9 +414,13 @@ export default function CheckoutClient() {
                 type="button"
                 className="checkout-whatsapp-btn"
                 onClick={handleWhatsAppOrder}
+                disabled={!whatsappSettingsLoaded || !whatsappSettings?.enabled}
               >
-                ЗАКАЗАТЬ В WHATSAPP
+                {!whatsappSettingsLoaded ? 'ЗАГРУЗКА WHATSAPP...' : 'ЗАКАЗАТЬ В WHATSAPP'}
               </button>
+              {whatsappSettingsLoaded && !whatsappSettings?.enabled && (
+                <p className="checkout-form-error">Заказ через WhatsApp сейчас недоступен.</p>
+              )}
               {whatsappError && <p className="checkout-form-error">{whatsappError}</p>}
             </aside>
           </form>
