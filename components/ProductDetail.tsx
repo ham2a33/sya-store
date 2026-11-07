@@ -167,10 +167,44 @@ export default function ProductDetail({ product }: { product: Product }) {
 
               <div className="product-accordions">
                 <AccordionItem title="Доставка и оплата">
-                  <p>
-                    Доставка по Казахстану 2–5 рабочих дней. Оплата картой,
-                    Kaspi или при получении — в зависимости от региона.
-                  </p>
+                  <div className="delivery-payment-details">
+                    <section className="delivery-payment-section" aria-labelledby="delivery-heading">
+                      <h3 id="delivery-heading">Доставка</h3>
+                      <div className="delivery-options">
+                        <div className="delivery-option">
+                          <strong>СДЭК</strong>
+                          <div className="delivery-option-details">
+                            <span>Стоимость <b>2 500–3 000 ₸</b></span>
+                            <span>Срок <b>2–3 дня</b></span>
+                          </div>
+                        </div>
+                        <div className="delivery-option">
+                          <strong>Казпочта</strong>
+                          <div className="delivery-option-details">
+                            <span>Стоимость <b>1 460 ₸</b></span>
+                            <span>Срок <b>5–7 дней</b></span>
+                          </div>
+                        </div>
+                        <div className="delivery-option">
+                          <strong>InDriver</strong>
+                          <div className="delivery-option-details">
+                            <span>Стоимость <b>4 000–5 000 ₸</b></span>
+                            <span>Срок <b>1–2 дня</b></span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section className="delivery-payment-section" aria-labelledby="payment-heading">
+                      <h3 id="payment-heading">Способы оплаты</h3>
+                      <ul className="payment-methods">
+                        <li>Kaspi Рассрочка / Kaspi Red</li>
+                        <li>Kaspi QR</li>
+                        <li>Удалённая оплата через Kaspi</li>
+                        <li>Наличными</li>
+                      </ul>
+                    </section>
+                  </div>
                 </AccordionItem>
                 <AccordionItem title="Возврат">
                   <p>

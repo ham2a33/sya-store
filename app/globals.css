@@ -1738,6 +1738,79 @@ footer small {
   color: #4a433d;
 }
 
+.delivery-payment-details {
+  display: grid;
+  gap: 20px;
+}
+
+.delivery-payment-section h3 {
+  margin: 0 0 10px;
+  color: #7a6a58;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.delivery-options {
+  display: grid;
+}
+
+.delivery-option {
+  display: grid;
+  grid-template-columns: minmax(90px, 0.7fr) minmax(0, 1.3fr);
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid #ebe5dc;
+}
+
+.delivery-option > strong {
+  color: #171514;
+  font-weight: 500;
+}
+
+.delivery-option-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+.delivery-option-details span {
+  color: #7a6a58;
+}
+
+.delivery-option-details b {
+  color: #171514;
+  font-weight: 400;
+}
+
+.payment-methods {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.payment-methods li {
+  padding: 9px 0;
+  border-top: 1px solid #ebe5dc;
+  color: #171514;
+}
+
+@media (max-width: 520px) {
+  .delivery-option {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .delivery-option-details {
+    justify-content: flex-start;
+    gap: 4px 16px;
+  }
+}
+
 .similar-section {
   padding-top: 16px;
   border-top: 1px solid #ebe5dc;
