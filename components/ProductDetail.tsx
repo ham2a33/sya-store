@@ -50,6 +50,19 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [quantity, setQuantity] = useState(1);
 
   const images = product.images.length ? product.images : product.image ? [product.image] : [];
+  const characteristicMap = new Map(
+    Object.entries(product.specifications ?? {}).filter(([, value]) => Boolean(value?.trim())),
+  );
+  if (product.material?.trim() && !characteristicMap.has('Материал')) {
+    characteristicMap.set('Материал', product.material);
+  }
+  if (product.color?.trim() && !characteristicMap.has('Цвет')) {
+    characteristicMap.set('Цвет', product.color);
+  }
+  if (product.size?.trim() && !characteristicMap.has('Размер')) {
+    characteristicMap.set('Размер', product.size);
+  }
+  const characteristics = [...characteristicMap.entries()];
 
   const handleAdd = () => {
     addProduct(product.id, quantity);
@@ -104,34 +117,26 @@ export default function ProductDetail({ product }: { product: Product }) {
                 <strong>{product.inStock ? 'В наличии' : 'Нет в наличии'}</strong>
               </div>
 
-              {product.material && (
-                <div className="product-detail-meta">
-                  <span>Материал</span>
-                  <strong>{product.material}</strong>
-                </div>
+              {characteristics.length > 0 && (
+                <section className="product-specifications" aria-labelledby="product-specifications-title">
+                  <h2 id="product-specifications-title">ХАРАКТЕРИСТИКИ</h2>
+                  <dl>
+                    {characteristics.map(([label, value]) => (
+                      <div className="product-specification-row" key={label}>
+                        <dt>{label}</dt>
+                        <dd>{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </section>
               )}
-              {product.color && (
-                <div className="product-detail-meta">
-                  <span>Цвет</span>
-                  <strong>{product.color}</strong>
-                </div>
-              )}
-              {product.size && (
-                <div className="product-detail-meta">
-                  <span>Размер</span>
-                  <strong>{product.size}</strong>
-                </div>
-              )}
-              {product.specifications && Object.entries(product.specifications).map(([label, value]) => (
-                <div className="product-detail-meta" key={label}>
-                  <span>{label}</span><strong>{value}</strong>
-                </div>
-              ))}
 
-              <div className="product-detail-about">
-                <h2>О ТОВАРЕ</h2>
-                <p>{product.description}</p>
-              </div>
+              {product.description?.trim() && (
+                <div className="product-detail-about">
+                  <h2>ОПИСАНИЕ</h2>
+                  <p>{product.description}</p>
+                </div>
+              )}
 
               <div className="product-detail-qty">
                 <span>Количество</span>

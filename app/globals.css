@@ -1612,6 +1612,50 @@ footer small {
   color: #7a6a58;
 }
 
+.product-specifications {
+  margin-top: 24px;
+  padding: 20px 22px;
+  border: 1px solid #ebe5dc;
+  border-radius: 12px;
+  background: #faf8f5;
+}
+
+.product-specifications h2 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+.product-specifications dl {
+  margin: 0;
+}
+
+.product-specification-row {
+  display: grid;
+  grid-template-columns: minmax(100px, 0.8fr) minmax(0, 1.2fr);
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ebe5dc;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.product-specification-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 2px;
+}
+
+.product-specification-row dt {
+  color: #7a6a58;
+}
+
+.product-specification-row dd {
+  margin: 0;
+  color: #171514;
+  text-align: right;
+}
+
 .product-detail-about {
   margin-top: 28px;
 }
@@ -1629,6 +1673,7 @@ footer small {
   font-size: 14px;
   line-height: 1.65;
   color: #4a433d;
+  white-space: pre-line;
 }
 
 .product-detail-qty {
@@ -1974,6 +2019,42 @@ footer small {
   gap: 16px;
 }
 
+.admin-specifications-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.admin-specifications-head h3,
+.admin-upload-block h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.admin-specifications-head p {
+  margin: 6px 0 0;
+  color: #7a6a58;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.admin-specification-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) auto;
+  align-items: end;
+  gap: 12px;
+}
+
+.admin-specification-remove {
+  min-height: 42px;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
 .admin-checkboxes {
   flex-direction: row;
   gap: 24px;
@@ -2040,6 +2121,19 @@ footer small {
   .admin-form-grid,
   .admin-filters {
     grid-template-columns: 1fr;
+  }
+
+  .admin-specifications-head {
+    flex-direction: column;
+  }
+
+  .admin-specification-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .admin-specification-remove {
+    justify-self: start;
   }
 
   .admin-page {

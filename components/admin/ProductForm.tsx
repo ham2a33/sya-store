@@ -18,6 +18,7 @@ type ProductFormValues = {
   material: string;
   color: string;
   size: string;
+  specifications: { label: string; value: string }[];
   image: string;
   images: string[];
   isNew: boolean;
@@ -42,6 +43,10 @@ function toFormValues(product?: Product): ProductFormValues {
     material: product?.material ?? '',
     color: product?.color ?? '',
     size: product?.size ?? '',
+    specifications: Object.entries(product?.specifications ?? {}).map(([label, value]) => ({
+      label,
+      value,
+    })),
     image: product?.image ?? '',
     images: product?.images?.length ? product.images : product?.image ? [product.image] : [],
     isNew: product?.isNew ?? false,
@@ -61,6 +66,29 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
   const title = mode === 'create' ? 'Добавить товар' : 'Редактировать товар';
   const stockNumber = useMemo(() => Number(values.stock) || 0, [values.stock]);
   const extraImages = values.images.filter((url) => url !== values.image);
+
+  const addSpecification = () => {
+    setValues((current) => ({
+      ...current,
+      specifications: [...current.specifications, { label: '', value: '' }],
+    }));
+  };
+
+  const updateSpecification = (index: number, field: 'label' | 'value', value: string) => {
+    setValues((current) => ({
+      ...current,
+      specifications: current.specifications.map((item, itemIndex) =>
+        itemIndex === index ? { ...item, [field]: value } : item,
+      ),
+    }));
+  };
+
+  const removeSpecification = (index: number) => {
+    setValues((current) => ({
+      ...current,
+      specifications: current.specifications.filter((_, itemIndex) => itemIndex !== index),
+    }));
+  };
 
   const uploadFile = async (file: File, onUrl: (url: string) => void) => {
     setUploading(true);
@@ -89,6 +117,15 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
       : values.image
         ? [values.image]
         : [];
+    const specifications = values.specifications
+      .map(({ label, value }) => [label.trim(), value.trim()] as const)
+      .filter(([label, value]) => label && value);
+    const specificationLabels = specifications.map(([label]) => label);
+    if (new Set(specificationLabels).size !== specificationLabels.length) {
+      setError('Названия характеристик должны быть уникальными');
+      setSaving(false);
+      return;
+    }
 
     const payload = {
       ...values,
@@ -97,6 +134,7 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
       stock: values.stock === '' ? null : Number(values.stock),
       image: values.image || images[0],
       images,
+      specifications: Object.fromEntries(specifications),
     };
 
     try {
@@ -233,13 +271,52 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
           </label>
         </div>
 
+        <section className="admin-upload-block admin-specifications-editor" aria-label="Характеристики товара">
+          <div className="admin-specifications-head">
+            <div>
+              <h3>Характеристики</h3>
+              <p>Укажите подтверждённые сведения. Неизвестные поля можно оставить пустыми.</p>
+            </div>
+            <button type="button" className="catalog-btn-text" onClick={addSpecification}>
+              + Добавить характеристику
+            </button>
+          </div>
+          {values.specifications.map((specification, index) => (
+            <div className="admin-specification-row" key={`specification-${index}`}>
+              <label className="admin-field">
+                <span>Название</span>
+                <input
+                  value={specification.label}
+                  placeholder="Например, Проба"
+                  onChange={(event) => updateSpecification(index, 'label', event.target.value)}
+                />
+              </label>
+              <label className="admin-field">
+                <span>Значение</span>
+                <input
+                  value={specification.value}
+                  placeholder="Например, 925"
+                  onChange={(event) => updateSpecification(index, 'value', event.target.value)}
+                />
+              </label>
+              <button
+                type="button"
+                className="admin-link-danger admin-specification-remove"
+                onClick={() => removeSpecification(index)}
+                aria-label="Удалить характеристику"
+              >
+                Удалить
+              </button>
+            </div>
+          ))}
+        </section>
+
         <label className="admin-field">
           <span>Описание</span>
           <textarea
             rows={5}
             value={values.description}
             onChange={(event) => setValues({ ...values, description: event.target.value })}
-            required
           />
         </label>
 

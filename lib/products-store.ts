@@ -204,6 +204,9 @@ export function toStoredProduct(payload: Partial<StoredProduct> & Pick<StoredPro
     material: payload.material,
     color: payload.color,
     size: payload.size,
+    specifications: payload.specifications && Object.keys(payload.specifications).length
+      ? payload.specifications
+      : undefined,
     stock,
     isNew: payload.isNew ?? false,
     popular: payload.popular ?? false,
