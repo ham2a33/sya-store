@@ -1,12 +1,9 @@
 import { Suspense } from 'react';
 import { notFound, redirect } from 'next/navigation';
 import CatalogView from '../../../components/CatalogView';
-import { getAllCategories, resolveCategorySlug } from '../../../lib/categories-store';
+import { resolveCategorySlug } from '../../../lib/categories-store';
 
-export async function generateStaticParams() {
-  const categories = await getAllCategories(true);
-  return categories.map((category) => ({ slug: category.slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function CategoryPage({
   params,

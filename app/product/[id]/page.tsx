@@ -1,11 +1,8 @@
 import { notFound } from 'next/navigation';
 import ProductDetail from '../../../components/ProductDetail';
-import { getAllProducts, getProductById } from '../../../lib/products-store';
+import { getProductById } from '../../../lib/products-store';
 
-export async function generateStaticParams() {
-  const products = await getAllProducts();
-  return products.map((product) => ({ id: product.id }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function ProductPage({
   params,
