@@ -51,19 +51,35 @@ export default function HomePageClient() {
                 Все категории <ArrowRight size={14} strokeWidth={1.5} />
               </Link>
             </div>
-            <div className="catalog-grid">
-              {categories.map((category) => (
-                <Link
-                  className="catalog-card"
-                  key={category.slug}
-                  href={`/catalog/${category.slug}`}
-                >
-                  {category.image ? <img src={category.image} alt={category.title} loading="lazy" /> : <div className="catalog-card-placeholder" aria-hidden="true" />}
-                  <div className="catalog-card-overlay" aria-hidden="true" />
-                  <span className="catalog-card-label">{category.title}</span>
-                </Link>
-              ))}
-            </div>
+            {categories.length > 0 ? (
+              <div className="catalog-grid">
+                {categories.map((category) => (
+                  <Link
+                    className="catalog-card"
+                    key={category.slug}
+                    href={`/catalog/${category.slug}`}
+                  >
+                    {category.image && (
+                      <img
+                        src={category.image}
+                        alt={category.title}
+                        loading="lazy"
+                        onError={(event) => {
+                          event.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    )}
+                    {!category.image && <div className="catalog-card-placeholder" aria-hidden="true" />}
+                    <div className="catalog-card-overlay" aria-hidden="true" />
+                    <span className="catalog-card-label">{category.title}</span>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <p className="catalog-empty catalog-empty--home">
+                Категории скоро появятся
+              </p>
+            )}
           </div>
         </section>
 

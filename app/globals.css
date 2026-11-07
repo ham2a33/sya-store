@@ -575,6 +575,20 @@ body {
   background: linear-gradient(145deg, #eee7df, #e5dbd0);
 }
 
+.product-image-fallback {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(145deg, #eee8e0, #ded4c8);
+  color: #8b7b6a;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.16em;
+}
+
+.catalog-empty--home { padding: 28px 0; }
+
 .heart {
   position: absolute;
   right: 9px;
