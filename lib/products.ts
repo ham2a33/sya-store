@@ -14,13 +14,14 @@ export type Product = {
   material?: string;
   color?: string;
   size?: string;
-  stock: number;
+  specifications?: Record<string, string>;
+  stock: number | null;
   inStock: boolean;
   isNew?: boolean;
   popular?: boolean;
   isBestseller?: boolean;
   bestsellerOrder?: number | null;
-  status?: 'active' | 'archived';
+  status?: 'active' | 'archived' | 'draft';
 };
 
 export type Category = {

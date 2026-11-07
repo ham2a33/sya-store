@@ -1,6 +1,6 @@
 import type { CategorySlug } from './products.types';
 
-export type ProductStatus = 'active' | 'archived';
+export type ProductStatus = 'active' | 'archived' | 'draft';
 export type UserRole = 'user' | 'admin';
 
 export type StoredProduct = {
@@ -15,7 +15,9 @@ export type StoredProduct = {
   material?: string;
   color?: string;
   size?: string;
-  stock: number;
+  specifications?: Record<string, string>;
+  sourceStockNote?: string;
+  stock: number | null;
   isNew?: boolean;
   popular?: boolean;
   isBestseller?: boolean;

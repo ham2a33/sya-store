@@ -111,7 +111,7 @@ function buildOrderItems(
       });
     }
 
-    if (product.stock <= 0) {
+    if (product.stock == null || product.stock <= 0) {
       throw new OrderValidationError(`Товар «${product.name}» недоступен`, 'OUT_OF_STOCK', {
         productName: product.name,
         available: 0,
@@ -146,7 +146,7 @@ function applyStockDecrease(
   return products.map((product) => {
     const quantity = aggregated.get(product.id);
     if (!quantity) return product;
-    return { ...product, stock: product.stock - quantity };
+    return { ...product, stock: (product.stock ?? 0) - quantity };
   });
 }
 
@@ -157,7 +157,7 @@ function revertStockIncrease(
   return products.map((product) => {
     const quantity = aggregated.get(product.id);
     if (!quantity) return product;
-    return { ...product, stock: product.stock + quantity };
+    return { ...product, stock: (product.stock ?? 0) + quantity };
   });
 }
 
@@ -200,7 +200,7 @@ export async function createOrder(input: CreateOrderInput): Promise<StoredOrder>
   const updatedProducts = applyStockDecrease(products, aggregated);
 
   for (const product of updatedProducts) {
-    if (product.stock < 0) {
+    if (product.stock != null && product.stock < 0) {
       throw new OrderValidationError('Недостаточно товара на складе', 'INSUFFICIENT_STOCK');
     }
   }

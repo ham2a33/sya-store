@@ -41,16 +41,16 @@ export default function AdminProductsPageClient({
     }
 
     if (stockFilter === 'in-stock') {
-      list = list.filter((product) => product.stock > 0 && product.status !== 'archived');
+      list = list.filter((product) => (product.stock ?? 0) > 0 && product.status !== 'archived');
     }
     if (stockFilter === 'out-of-stock') {
-      list = list.filter((product) => product.stock <= 0 || product.status === 'archived');
+      list = list.filter((product) => (product.stock ?? 0) <= 0 || product.status === 'archived');
     }
 
     list.sort((a, b) => {
       if (sort === 'price-asc') return a.price - b.price;
       if (sort === 'price-desc') return b.price - a.price;
-      if (sort === 'stock') return b.stock - a.stock;
+      if (sort === 'stock') return (b.stock ?? 0) - (a.stock ?? 0);
       return a.name.localeCompare(b.name, 'ru');
     });
 
@@ -117,16 +117,18 @@ export default function AdminProductsPageClient({
             {filtered.map((product) => (
               <tr key={product.id}>
                 <td>
-                  <img src={product.image} alt={product.name} className="admin-table-image" />
+                  {product.image ? <img src={product.image} alt={product.name} className="admin-table-image" /> : <div className="admin-table-image product-image-placeholder" aria-label="Фото пока не добавлено" />}
                 </td>
                 <td>{product.name}</td>
                 <td>{product.id}</td>
                 <td>{formatPrice(product.price)}</td>
-                <td>{product.stock}</td>
+                <td>{product.stock ?? 'Не указан'}</td>
                 <td>
-                  {product.status === 'archived'
+                  {product.status === 'draft'
+                    ? 'Черновик'
+                    : product.status === 'archived'
                     ? 'Архив'
-                    : product.stock > 0
+                    : (product.stock ?? 0) > 0
                       ? 'В наличии'
                       : 'Нет в наличии'}
                 </td>

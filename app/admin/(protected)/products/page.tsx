@@ -7,7 +7,7 @@ export default async function AdminProductsPage() {
 
   const normalized = products.map((product) => ({
     ...product,
-    inStock: product.stock > 0 && product.status === 'active',
+        inStock: (product.stock ?? 0) > 0 && product.status === 'active',
   }));
 
   return (

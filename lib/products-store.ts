@@ -8,7 +8,7 @@ const DATA_PATH = path.join(process.cwd(), 'data/products.json');
 function normalizeProduct(product: StoredProduct): Product {
   return {
     ...product,
-    inStock: product.stock > 0 && product.status === 'active',
+    inStock: (product.stock ?? 0) > 0 && product.status === 'active',
   };
 }
 
@@ -31,7 +31,7 @@ export async function writeRawProducts(products: StoredProduct[]): Promise<void>
 export async function getAllProducts(includeArchived = false): Promise<Product[]> {
   const products = await readRawProducts();
   return products
-    .filter((product) => includeArchived || product.status !== 'archived')
+    .filter((product) => includeArchived || product.status === 'active')
     .map(normalizeProduct);
 }
 
@@ -46,7 +46,7 @@ export async function getStoredProduct(id: string): Promise<StoredProduct | unde
 
 export async function getProductById(id: string): Promise<Product | undefined> {
   const product = await getStoredProduct(id);
-  if (!product || product.status === 'archived') return undefined;
+  if (!product || product.status !== 'active') return undefined;
   return normalizeProduct(product);
 }
 

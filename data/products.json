@@ -1,358 +1,2988 @@
 [
   {
-    "id": "sya-ring-001",
-    "name": "Кольцо с розовым камнем",
-    "price": 14500,
-    "category": "rings",
-    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=85",
-      "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=800&q=85",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=85"
-    ],
-    "description": "Изящное кольцо с розовым камнем в тёплом золотом исполнении. Создано, чтобы подчеркнуть вашу естественную красоту.",
-    "material": "Латунь с позолотой",
-    "color": "Золото / розовый",
-    "size": "16–18",
-    "inStock": true,
-    "popular": true,
-    "stock": 8,
-    "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 6,
-    "isNew": false
-  },
-  {
-    "id": "sya-ring-002",
-    "name": "Кольцо с фианитами",
-    "price": 12500,
-    "category": "rings",
-    "image": "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=800&q=85",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Классическое кольцо с фианитами для ежедневного сияния.",
-    "material": "Латунь с позолотой",
-    "inStock": true,
-    "isNew": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 2,
-    "popular": false
-  },
-  {
-    "id": "sya-ring-003",
-    "name": "Кольцо «Клевер»",
-    "price": 11900,
-    "category": "rings",
-    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Минималистичное кольцо с мотивом клевера.",
-    "inStock": true,
-    "popular": true,
-    "stock": 9,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "isNew": false
-  },
-  {
-    "id": "sya-ring-004",
-    "name": "Кольцо «Сияние»",
-    "price": 15900,
-    "category": "rings",
-    "image": "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Тонкое кольцо с мягким блеском для особых моментов.",
-    "inStock": false,
-    "stock": 0,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "isNew": false,
-    "popular": false
-  },
-  {
-    "id": "sya-earring-001",
-    "name": "Серьги с розовым камнем",
-    "price": 16500,
-    "category": "earrings",
-    "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Серьги с нежным розовым камнем в золотой оправе.",
-    "material": "Латунь с позолотой",
-    "inStock": true,
-    "popular": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 5,
-    "isNew": false
-  },
-  {
-    "id": "sya-earring-002",
-    "name": "Серьги-кольца",
-    "price": 15500,
-    "category": "earrings",
-    "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Универсальные серьги-кольца для любого образа.",
-    "inStock": true,
-    "isNew": true,
-    "stock": 9,
-    "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 1,
-    "popular": false
-  },
-  {
-    "id": "sya-earring-003",
-    "name": "Серьги «Жемчуг»",
-    "price": 13900,
-    "category": "earrings",
-    "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Лёгкие серьги с жемчужным акцентом.",
-    "inStock": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "isNew": false,
-    "popular": false
-  },
-  {
-    "id": "sya-pendant-001",
-    "name": "Подвеска «Клевер»",
-    "price": 11500,
-    "category": "pendants",
-    "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Иконическая подвеска SYA с мотивом клевера.",
-    "inStock": true,
-    "popular": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 4,
-    "isNew": false
-  },
-  {
-    "id": "sya-pendant-002",
-    "name": "Подвеска «Сияние»",
-    "price": 12900,
-    "category": "pendants",
-    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Минималистичная подвеска с мягким золотым блеском.",
-    "inStock": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "isNew": false,
-    "popular": false
-  },
-  {
-    "id": "sya-bracelet-001",
-    "name": "Браслет с клевером",
-    "price": 13500,
+    "id": "tennis-bracelet-apm-001",
+    "name": "Теннисный браслет APM",
+    "price": 20000,
     "category": "bracelets",
-    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85",
+    "image": "/uploads/products/tennis-bracelet-apm-001-01-d6bfbb1cb6.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85"
+      "/uploads/products/tennis-bracelet-apm-001-01-d6bfbb1cb6.jpg",
+      "/uploads/products/tennis-bracelet-apm-001-02-11079c93cf.jpg"
     ],
-    "description": "Изящный браслет с подвеской-клевером.",
-    "inStock": true,
-    "popular": true,
-    "stock": 10,
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "specifications": {
+      "Длина": "17 см"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
     "status": "active",
-    "isBestseller": true,
-    "bestsellerOrder": 3,
-    "isNew": false
-  },
-  {
-    "id": "sya-bracelet-002",
-    "name": "Браслет «Золотая нить»",
-    "price": 14900,
-    "category": "bracelets",
-    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Тонкий браслет с деликатным золотым плетением.",
-    "inStock": true,
-    "isNew": true,
-    "stock": 3,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
+    "isNew": false,
     "popular": false,
-    "material": "",
-    "color": "",
-    "size": ""
+    "isBestseller": false,
+    "bestsellerOrder": null
   },
   {
-    "id": "sya-chain-001",
-    "name": "Цепочка «Классика»",
-    "price": 16900,
+    "id": "yacht-club-apm-yellow-gold",
+    "name": "Yacht Club APM",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/yacht-club-apm-yellow-gold-01-e958a725ca.jpg",
+    "images": [
+      "/uploads/products/yacht-club-apm-yellow-gold-01-e958a725ca.jpg",
+      "/uploads/products/yacht-club-apm-yellow-gold-02-60303d918d.jpg",
+      "/uploads/products/yacht-club-apm-yellow-gold-03-b4c133eb16.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Жёлтое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "yacht-club-apm-rose-gold",
+    "name": "Yacht Club APM",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/yacht-club-apm-rose-gold-01-308eae6b3b.jpg",
+    "images": [
+      "/uploads/products/yacht-club-apm-rose-gold-01-308eae6b3b.jpg",
+      "/uploads/products/yacht-club-apm-rose-gold-02-f6fe6380ed.jpg",
+      "/uploads/products/yacht-club-apm-rose-gold-03-be1db7334f.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Розовое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "marine-apm-yellow-gold",
+    "name": "Marine APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/marine-apm-yellow-gold-01-bdc9473a6f.jpg",
+    "images": [
+      "/uploads/products/marine-apm-yellow-gold-01-bdc9473a6f.jpg",
+      "/uploads/products/marine-apm-yellow-gold-02-747348c042.jpg",
+      "/uploads/products/marine-apm-yellow-gold-03-016c5ce888.jpg",
+      "/uploads/products/marine-apm-yellow-gold-04-967bbf5485.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Жёлтое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "marine-apm-rose-gold",
+    "name": "Marine APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/marine-apm-rose-gold-01-9741200c95.jpg",
+    "images": [
+      "/uploads/products/marine-apm-rose-gold-01-9741200c95.jpg",
+      "/uploads/products/marine-apm-rose-gold-02-7717c3ab5c.jpg",
+      "/uploads/products/marine-apm-rose-gold-03-9f14d34322.jpg",
+      "/uploads/products/marine-apm-rose-gold-04-af7918f48b.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Розовое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "marine-apm-silver",
+    "name": "Marine APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/marine-apm-silver-01-7632c0edc1.jpg",
+    "images": [
+      "/uploads/products/marine-apm-silver-01-7632c0edc1.jpg",
+      "/uploads/products/marine-apm-silver-02-08332e7733.jpg",
+      "/uploads/products/marine-apm-silver-03-967bbf5485.jpg",
+      "/uploads/products/marine-apm-silver-04-0202a8fc2d.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Серебристый",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "heart-apm-rose-gold-01",
+    "name": "Heart APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/heart-apm-rose-gold-01-01-516bca88fe.jpg",
+    "images": [
+      "/uploads/products/heart-apm-rose-gold-01-01-516bca88fe.jpg",
+      "/uploads/products/heart-apm-rose-gold-01-02-41ae5ec608.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Розовое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "heart-apm-rose-gold-02",
+    "name": "Heart APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/heart-apm-rose-gold-02-01-7d3597e0dd.jpg",
+    "images": [
+      "/uploads/products/heart-apm-rose-gold-02-01-7d3597e0dd.jpg",
+      "/uploads/products/heart-apm-rose-gold-02-02-e3d38016b5.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Розовое золото",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "butterfly-apm-silver-01",
+    "name": "Butterfly APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/butterfly-apm-silver-01-01-2e4030d197.jpg",
+    "images": [
+      "/uploads/products/butterfly-apm-silver-01-01-2e4030d197.jpg",
+      "/uploads/products/butterfly-apm-silver-01-02-2b03d991c0.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Серебристый",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "butterfly-apm-silver-02",
+    "name": "Butterfly APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/butterfly-apm-silver-02-01-2e33e9ad7c.jpg",
+    "images": [
+      "/uploads/products/butterfly-apm-silver-02-01-2e33e9ad7c.jpg",
+      "/uploads/products/butterfly-apm-silver-02-02-b6874e82d6.jpg"
+    ],
+    "description": "Украшение APM. Бережный уход: избегать контакта с водой, парфюмом и бытовой химией. ",
+    "color": "Серебристый",
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — заполнить после подтверждения.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "meteorite-apm-011",
+    "name": "Meteorite APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/meteorite-apm-011-01-6c2efa3c53.jpg",
+    "images": [
+      "/uploads/products/meteorite-apm-011-01-6c2efa3c53.jpg",
+      "/uploads/products/meteorite-apm-011-02-683d8731d5.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000124-PHOTO-2026-11-06-10-47-38.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "регулируется 15-23см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "meteorite-apm-012",
+    "name": "Meteorite APM",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/meteorite-apm-012-01-0026667421.jpg",
+    "images": [
+      "/uploads/products/meteorite-apm-012-01-0026667421.jpg",
+      "/uploads/products/meteorite-apm-012-02-d0e715f498.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000127-PHOTO-2026-11-06-10-48-32.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "регулируется 15-23см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-013",
+    "name": "Украшение APM — вариант 3",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-013-01-c45f5443c0.jpg",
+    "images": [
+      "/uploads/products/apm-013-01-c45f5443c0.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000128-PHOTO-2026-11-06-10-52-46.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-014",
+    "name": "Украшение APM — вариант 4",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-014-01-310f4c0676.jpg",
+    "images": [
+      "/uploads/products/apm-014-01-310f4c0676.jpg",
+      "/uploads/products/apm-014-02-a1f6c47830.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000130-PHOTO-2026-11-06-10-53-12.jpg>",
+    "color": "комбо(розовое+серебристое)",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-015",
+    "name": "Украшение APM — вариант 5",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-015-01-eff749a832.jpg",
+    "images": [
+      "/uploads/products/apm-015-01-eff749a832.jpg",
+      "/uploads/products/apm-015-02-4891dc774e.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000133-PHOTO-2026-11-06-10-53-36.jpg>",
+    "color": "комбо(желтое+серебристое)",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-016",
+    "name": "Украшение APM — вариант 6",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-016-01-d18b529941.jpg",
+    "images": [
+      "/uploads/products/apm-016-01-d18b529941.jpg",
+      "/uploads/products/apm-016-02-d44d479db5.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000136-PHOTO-2026-11-06-10-53-46.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-017",
+    "name": "Украшение APM — вариант 7",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-017-01-accab02131.jpg",
+    "images": [
+      "/uploads/products/apm-017-01-accab02131.jpg",
+      "/uploads/products/apm-017-02-061c887d19.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000139-PHOTO-2026-11-06-10-54-10.jpg>",
+    "color": "желтое золото",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-018",
+    "name": "Украшение APM — вариант 8",
+    "price": 25000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-018-01-f566045342.jpg",
+    "images": [
+      "/uploads/products/apm-018-01-f566045342.jpg",
+      "/uploads/products/apm-018-02-5b7cbd89a7.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000142-PHOTO-2026-11-06-10-54-25.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-019",
+    "name": "Украшение APM — вариант 9",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-019-01-22b191ff86.jpg",
+    "images": [
+      "/uploads/products/apm-019-01-22b191ff86.jpg",
+      "/uploads/products/apm-019-02-c466696605.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000145-PHOTO-2026-11-06-10-55-39.jpg>",
+    "color": "комбо( желтое+ розовое+серебристое)",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-020",
+    "name": "Украшение APM — вариант 10",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-020-01-71cf7fcb50.jpg",
+    "images": [
+      "/uploads/products/apm-020-01-71cf7fcb50.jpg",
+      "/uploads/products/apm-020-02-ea8d154a7f.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн.",
+    "color": "розовое",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-021",
+    "name": "Украшение APM — вариант 11",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-021-01-5e902aa7db.jpg",
+    "images": [
+      "/uploads/products/apm-021-01-5e902aa7db.jpg",
+      "/uploads/products/apm-021-02-f77289661b.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000153-PHOTO-2026-11-06-10-56-46.jpg>",
+    "color": "серебристый",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-022",
+    "name": "Украшение APM — вариант 12",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-022-01-219e694051.jpg",
+    "images": [
+      "/uploads/products/apm-022-01-219e694051.jpg",
+      "/uploads/products/apm-022-02-87df26c52a.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000156-PHOTO-2026-11-06-10-58-07.jpg>",
+    "color": "желтый",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-023",
+    "name": "Украшение APM — вариант 13",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-023-01-55fd837ee6.jpg",
+    "images": [
+      "/uploads/products/apm-023-01-55fd837ee6.jpg",
+      "/uploads/products/apm-023-02-39049a90f4.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000159-PHOTO-2026-11-06-10-58-58.jpg>",
+    "color": "желтое",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-024",
+    "name": "Украшение APM — вариант 14",
+    "price": 21000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-024-01-04b61d520f.jpg",
+    "images": [
+      "/uploads/products/apm-024-01-04b61d520f.jpg",
+      "/uploads/products/apm-024-02-a653d929de.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000162-PHOTO-2026-11-06-10-59-52.jpg>",
+    "color": "желтое",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-025",
+    "name": "Украшение APM — вариант 15",
+    "price": 22000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-025-01-10eaeafc70.jpg",
+    "images": [
+      "/uploads/products/apm-025-01-10eaeafc70.jpg",
+      "/uploads/products/apm-025-02-c27cfd5158.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000165-PHOTO-2026-11-06-11-08-37.jpg>",
+    "color": "желтое",
+    "specifications": {
+      "Длина": "стандарт М",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-026",
+    "name": "Украшение APM — вариант 16",
+    "price": 22000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-026-01-846f4ad98e.jpg",
+    "images": [
+      "/uploads/products/apm-026-01-846f4ad98e.jpg",
+      "/uploads/products/apm-026-02-76d283328e.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000168-PHOTO-2026-11-06-11-09-26.jpg>",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-027",
+    "name": "Украшение APM — вариант 17",
+    "price": 22000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-027-01-7253493f17.jpg",
+    "images": [
+      "/uploads/products/apm-027-01-7253493f17.jpg",
+      "/uploads/products/apm-027-02-104f241068.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000171-PHOTO-2026-11-06-11-10-37.jpg>",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-028",
+    "name": "Украшение APM — вариант 18",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-028-01-c8493e65bc.jpg",
+    "images": [
+      "/uploads/products/apm-028-01-c8493e65bc.jpg",
+      "/uploads/products/apm-028-02-fe61c74ac2.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000174-PHOTO-2026-11-06-11-11-15.jpg>",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "graff-029",
+    "name": "Украшение Graff — вариант 19",
+    "price": 21000,
+    "category": "jewelry",
+    "image": "/uploads/products/graff-029-01-6e404d43d7.jpg",
+    "images": [
+      "/uploads/products/graff-029-01-6e404d43d7.jpg",
+      "/uploads/products/graff-029-02-882d992793.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "М размер",
+      "Материал": "белое золото 750 пробы, виголд",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "graff-030",
+    "name": "Украшение Graff — вариант 20",
+    "price": 21000,
+    "category": "jewelry",
+    "image": "/uploads/products/graff-030-01-ea8fa1c7c2.jpg",
+    "images": [
+      "/uploads/products/graff-030-01-ea8fa1c7c2.jpg",
+      "/uploads/products/graff-030-02-25ee048450.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "М размер",
+      "Материал": "белое золото 750 пробы, виголд",
+      "Вставки": "цирконы, искусственный перламутр"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "graff-031",
+    "name": "Украшение Graff — вариант 21",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/graff-031-01-d3c0230df2.jpg",
+    "images": [
+      "/uploads/products/graff-031-01-d3c0230df2.jpg",
+      "/uploads/products/graff-031-02-a03715432f.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "белое золото 750 пробы, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "graff-032",
+    "name": "Украшение Graff — вариант 22",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/graff-032-01-b6670e87fc.jpg",
+    "images": [
+      "/uploads/products/graff-032-01-b6670e87fc.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "белое золото 750 пробы, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "graff-033",
+    "name": "Украшение Graff — вариант 23",
+    "price": 18000,
+    "category": "bracelets",
+    "image": "/uploads/products/graff-033-01-f0cfc3116a.jpg",
+    "images": [
+      "/uploads/products/graff-033-01-f0cfc3116a.jpg",
+      "/uploads/products/graff-033-02-8c0ac431e6.jpg",
+      "/uploads/products/graff-033-03-e352b464f6.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "color": "серебристое",
+    "specifications": {
+      "Длина": "регулируется",
+      "Материал": "белое золото 750 пробы, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-034",
+    "name": "Теннисный браслет APM",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "",
+    "images": [],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн.",
+    "specifications": {
+      "Длина": "17 см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-035",
+    "name": "Теннисный браслет APM",
+    "price": 20000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-035-01-1b699d0bb2.jpg",
+    "images": [
+      "/uploads/products/apm-035-01-1b699d0bb2.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000194-PHOTO-2026-11-06-11-47-29.jpg>",
+    "specifications": {
+      "Длина": "17 см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-036",
+    "name": "Теннисный браслет APM",
+    "price": 25000,
+    "category": "bracelets",
+    "image": "/uploads/products/apm-036-01-52ada574b5.jpg",
+    "images": [
+      "/uploads/products/apm-036-01-52ada574b5.jpg",
+      "/uploads/products/apm-036-02-f88100c8ad.jpg",
+      "/uploads/products/apm-036-03-a032459dfa.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000195-PHOTO-2026-11-06-11-50-08.jpg>",
+    "specifications": {
+      "Длина": "М стандарт",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-037",
+    "name": "Цепочка APM",
+    "price": 18000,
     "category": "chains",
-    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85",
+    "image": "/uploads/products/apm-037-01-215b2e20cc.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85"
+      "/uploads/products/apm-037-01-215b2e20cc.jpg",
+      "/uploads/products/apm-037-02-9910f5d03e.jpg"
     ],
-    "description": "Универсальная золотая цепочка для подвесок и соло-образов.",
-    "inStock": true,
-    "stock": 10,
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000204-PHOTO-2026-11-07-11-20-52.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
     "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
     "isNew": false,
-    "popular": false
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
   },
   {
-    "id": "sya-chain-002",
-    "name": "Цепочка «Тонкая»",
-    "price": 14200,
+    "id": "apm-038",
+    "name": "Цепочка APM",
+    "price": 18000,
     "category": "chains",
-    "image": "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85",
+    "image": "/uploads/products/apm-038-01-9d9870862b.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85"
+      "/uploads/products/apm-038-01-9d9870862b.jpg",
+      "/uploads/products/apm-038-02-9ee17c0c99.jpg"
     ],
-    "description": "Едва заметная цепочка для минималистичного стиля.",
-    "inStock": true,
-    "stock": 10,
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000206-PHOTO-2026-11-07-11-21-20.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
     "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
     "isNew": false,
-    "popular": false
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
   },
   {
-    "id": "sya-set-001",
-    "name": "Комплект «Клевер»",
-    "price": 24900,
-    "category": "sets",
-    "image": "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=800&q=85",
+    "id": "apm-039",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-039-01-1cb780747c.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1603561596112-db37e4c6b0b8?auto=format&fit=crop&w=800&q=85",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=85"
+      "/uploads/products/apm-039-01-1cb780747c.jpg"
     ],
-    "description": "Комплект серьги + подвеска в едином стиле SYA.",
-    "inStock": true,
-    "popular": true,
-    "stock": 10,
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000208-PHOTO-2026-11-07-11-21-49.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
     "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "isNew": false
-  },
-  {
-    "id": "sya-set-002",
-    "name": "Комплект «Сияние»",
-    "price": 27900,
-    "category": "sets",
-    "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Комплект кольцо + серьги для особого случая.",
-    "inStock": true,
-    "isNew": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "popular": false
-  },
-  {
-    "id": "sya-choker-001",
-    "name": "Чокер «Нежность»",
-    "price": 18900,
-    "category": "chokers",
-    "image": "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1515562141202-7a88fb7ce338?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Чокер с мягким золотым блеском и комфортной посадкой.",
-    "inStock": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
     "isNew": false,
-    "popular": false
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
   },
   {
-    "id": "sya-cuff-001",
-    "name": "Кафф «Луна»",
-    "price": 9900,
-    "category": "cuffs",
-    "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=85",
+    "id": "apm-040",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-040-01-1cfb777138.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=85"
+      "/uploads/products/apm-040-01-1cfb777138.jpg"
     ],
-    "description": "Кафф без прокола — удобный акцент для уха.",
-    "inStock": true,
-    "isNew": true,
-    "stock": 10,
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000209-PHOTO-2026-11-07-11-22-14.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
     "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
-    "popular": false
-  },
-  {
-    "id": "sya-accessory-001",
-    "name": "Подставка для украшений",
-    "price": 7900,
-    "category": "accessories",
-    "image": "https://images.unsplash.com/photo-1535632066922-ab7c9ab60908?auto=format&fit=crop&w=800&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1535632066922-ab7c9ab60908?auto=format&fit=crop&w=800&q=85"
-    ],
-    "description": "Минималистичная подставка для хранения любимых украшений.",
-    "inStock": true,
-    "stock": 10,
-    "status": "active",
-    "isBestseller": false,
-    "bestsellerOrder": null,
     "isNew": false,
-    "popular": false
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
   },
   {
-    "id": "1204305",
-    "name": "кольцо с бриллиантом",
-    "price": 23500,
+    "id": "apm-041",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-041-01-3431284874.jpg",
+    "images": [
+      "/uploads/products/apm-041-01-3431284874.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000210-PHOTO-2026-11-07-11-22-34.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-042",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-042-01-67aac8a6a9.jpg",
+    "images": [
+      "/uploads/products/apm-042-01-67aac8a6a9.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000211-PHOTO-2026-11-07-11-22-51.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-043",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-043-01-ce5d74938c.jpg",
+    "images": [
+      "/uploads/products/apm-043-01-ce5d74938c.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000212-PHOTO-2026-11-07-11-23-10.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-044",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-044-01-f536c3e0ad.jpg",
+    "images": [
+      "/uploads/products/apm-044-01-f536c3e0ad.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000213-PHOTO-2026-11-07-11-26-13.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-045",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-045-01-6332a3c45f.jpg",
+    "images": [
+      "/uploads/products/apm-045-01-6332a3c45f.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000214-PHOTO-2026-11-07-11-26-14.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-046",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-046-01-0c4d59d0d3.jpg",
+    "images": [
+      "/uploads/products/apm-046-01-0c4d59d0d3.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000215-PHOTO-2026-11-07-11-26-14.jpg>",
+    "specifications": {
+      "Длина": "42-45 регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-047",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-047-01-bdead8eafb.jpg",
+    "images": [
+      "/uploads/products/apm-047-01-bdead8eafb.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000216-PHOTO-2026-11-07-11-26-15.jpg>",
+    "specifications": {
+      "Длина": "42-45 регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-048",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-048-01-64cd0feff2.jpg",
+    "images": [
+      "/uploads/products/apm-048-01-64cd0feff2.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000217-PHOTO-2026-11-07-11-26-15.jpg>",
+    "specifications": {
+      "Длина": "42-45 регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-049",
+    "name": "Цепочка APM",
+    "price": 25000,
+    "category": "chains",
+    "image": "/uploads/products/apm-049-01-1829759066.jpg",
+    "images": [
+      "/uploads/products/apm-049-01-1829759066.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000218-PHOTO-2026-11-07-11-26-16.jpg>",
+    "specifications": {
+      "Длина": "42-45 регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-050",
+    "name": "Цепочка APM",
+    "price": 22000,
+    "category": "chains",
+    "image": "/uploads/products/apm-050-01-0fc7f79388.jpg",
+    "images": [
+      "/uploads/products/apm-050-01-0fc7f79388.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000219-PHOTO-2026-11-07-11-26-16.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-051",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-051-01-4ec2589ad1.jpg",
+    "images": [
+      "/uploads/products/apm-051-01-4ec2589ad1.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000220-PHOTO-2026-11-07-11-26-17.jpg>",
+    "specifications": {
+      "Длина": "42-45 регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-052",
+    "name": "Цепочка APM",
+    "price": 30000,
+    "category": "chains",
+    "image": "/uploads/products/apm-052-01-078cfadd2a.jpg",
+    "images": [
+      "/uploads/products/apm-052-01-078cfadd2a.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000221-PHOTO-2026-11-07-11-26-17.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-053",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-053-01-089d88a490.jpg",
+    "images": [
+      "/uploads/products/apm-053-01-089d88a490.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000222-PHOTO-2026-11-07-11-35-08.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-054",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-054-01-cadb5e1623.jpg",
+    "images": [
+      "/uploads/products/apm-054-01-cadb5e1623.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000223-PHOTO-2026-11-07-11-35-08.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-055",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-055-01-604972e6c7.jpg",
+    "images": [
+      "/uploads/products/apm-055-01-604972e6c7.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000224-PHOTO-2026-11-07-11-35-08.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-056",
+    "name": "Колье APM",
+    "price": 21000,
+    "category": "necklaces",
+    "image": "/uploads/products/apm-056-01-d21fab2b7c.jpg",
+    "images": [
+      "/uploads/products/apm-056-01-d21fab2b7c.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000225-PHOTO-2026-11-07-11-35-09.jpg>",
+    "specifications": {
+      "Длина": "45см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-057",
+    "name": "Цепочка APM",
+    "price": 30000,
+    "category": "chains",
+    "image": "/uploads/products/apm-057-01-aae9e4dea4.jpg",
+    "images": [
+      "/uploads/products/apm-057-01-aae9e4dea4.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000226-PHOTO-2026-11-07-11-35-10.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-058",
+    "name": "Цепочка APM",
+    "price": 30000,
+    "category": "chains",
+    "image": "/uploads/products/apm-058-01-fa26771c6c.jpg",
+    "images": [
+      "/uploads/products/apm-058-01-fa26771c6c.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000227-PHOTO-2026-11-07-11-35-10.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "jewelry-059",
+    "name": "Сотуар Ванклиф",
+    "price": 30000,
+    "category": "necklaces",
+    "image": "/uploads/products/jewelry-059-01-d2bf6d4836.jpg",
+    "images": [
+      "/uploads/products/jewelry-059-01-d2bf6d4836.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Длина": "80см",
+      "Материал": "белое золото 750, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-060",
+    "name": "Цепочка APM",
+    "price": 25000,
+    "category": "chains",
+    "image": "/uploads/products/apm-060-01-15ddda920f.jpg",
+    "images": [
+      "/uploads/products/apm-060-01-15ddda920f.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000229-PHOTO-2026-11-07-11-35-11.jpg>",
+    "specifications": {
+      "Длина": "45см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-061",
+    "name": "Цепочка APM",
+    "price": 25000,
+    "category": "chains",
+    "image": "/uploads/products/apm-061-01-be67c4d644.jpg",
+    "images": [
+      "/uploads/products/apm-061-01-be67c4d644.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000230-PHOTO-2026-11-07-11-35-12.jpg>",
+    "specifications": {
+      "Длина": "45см",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "jewelry-062",
+    "name": "Цепочка Графф",
+    "price": 21000,
+    "category": "chains",
+    "image": "/uploads/products/jewelry-062-01-24ad72d17f.jpg",
+    "images": [
+      "/uploads/products/jewelry-062-01-24ad72d17f.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Длина": "45см регулируется",
+      "Материал": "белое золото 750, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "jewelry-063",
+    "name": "Цепочка Графф",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/jewelry-063-01-c519af8f5d.jpg",
+    "images": [
+      "/uploads/products/jewelry-063-01-c519af8f5d.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Длина": "45см регулируется",
+      "Материал": "белое золото 750, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-064",
+    "name": "Цепочка APM",
+    "price": 18000,
+    "category": "chains",
+    "image": "/uploads/products/apm-064-01-4c5619b356.jpg",
+    "images": [
+      "/uploads/products/apm-064-01-4c5619b356.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000233-PHOTO-2026-11-07-11-35-13.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-065",
+    "name": "Цепочка APM",
+    "price": 30000,
+    "category": "chains",
+    "image": "/uploads/products/apm-065-01-6449646180.jpg",
+    "images": [
+      "/uploads/products/apm-065-01-6449646180.jpg"
+    ],
+    "description": "Для сохранения первоначального вида изделия избегайте контакта с водой, парфюмом, декоративной косметикой, бытовой химией и солёной водой. Не рекомендуется посещать в украшении баню, сауну и бассейн. ‎ 00000234-PHOTO-2026-11-07-11-35-14.jpg>",
+    "specifications": {
+      "Длина": "65см регулируется",
+      "Материал": "серебро 925 пробы",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "jewelry-066",
+    "name": "Сотуар Графф",
+    "price": 28000,
+    "category": "necklaces",
+    "image": "/uploads/products/jewelry-066-01-dde43cd785.jpg",
+    "images": [
+      "/uploads/products/jewelry-066-01-dde43cd785.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Длина": "80см",
+      "Материал": "белое золото 750, виголд",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-067",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
     "category": "rings",
-    "image": "/uploads/products/1786543049054-f82718f7.png",
+    "image": "/uploads/products/apm-monaco-067-01-0df88b25ca.jpg",
     "images": [
-      "/uploads/products/1786543049054-f82718f7.png"
+      "/uploads/products/apm-monaco-067-01-0df88b25ca.jpg"
     ],
-    "description": "из чистого золота",
-    "material": "золота ",
-    "color": "золотистый ",
-    "size": "14-22",
-    "stock": 0,
-    "isNew": true,
-    "popular": true,
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
     "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-068",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-068-01-f87fe2b255.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-068-01-f87fe2b255.jpg",
+      "/uploads/products/apm-monaco-068-02-d76cf2f973.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-069",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-069-01-f0cb87cadb.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-069-01-f0cb87cadb.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-070",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-070-01-336014ce1a.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-070-01-336014ce1a.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-071",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-071-01-8bc993f966.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-071-01-8bc993f966.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-072",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-072-01-9a180ba264.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-072-01-9a180ba264.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-073",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-073-01-4b31e049c8.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-073-01-4b31e049c8.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-074",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-074-01-187a99358f.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-074-01-187a99358f.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-075",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-075-01-a804025c25.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-075-01-a804025c25.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-076",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-076-01-f9ff1b3371.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-076-01-f9ff1b3371.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-077",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-077-01-bdfe6877b6.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-077-01-bdfe6877b6.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-078",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-078-01-0b248e302d.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-078-01-0b248e302d.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-079",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-079-01-03753a75ef.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-079-01-03753a75ef.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-080",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-080-01-a9be4f6783.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-080-01-a9be4f6783.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-081",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-081-01-9636e99dac.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-081-01-9636e99dac.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-082",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-082-01-bfa45178c4.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-082-01-bfa45178c4.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-083",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-083-01-cb240bbef4.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-083-01-cb240bbef4.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-084",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-084-01-0ee367d457.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-084-01-0ee367d457.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-085",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-085-01-4fa0a44cd3.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-085-01-4fa0a44cd3.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-086",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-086-01-df96461827.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-086-01-df96461827.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-087",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-087-01-196bb7e4c6.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-087-01-196bb7e4c6.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-088",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-088-01-09b24f4d3d.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-088-01-09b24f4d3d.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-089",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-089-01-6823bf80f4.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-089-01-6823bf80f4.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-090",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-090-01-7b6465aae6.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-090-01-7b6465aae6.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-091",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-091-01-4bbd163a62.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-091-01-4bbd163a62.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-092",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-092-01-663bfe3de9.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-092-01-663bfe3de9.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-093",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-093-01-4676e0ee44.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-093-01-4676e0ee44.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-094",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-094-01-210ff137a7.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-094-01-210ff137a7.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-095",
+    "name": "Кольцо  Apm Monaco",
+    "price": 19000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-095-01-fd3067df48.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-095-01-fd3067df48.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-096",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-096-01-546a1e1747.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-096-01-546a1e1747.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-097",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-097-01-3851d22509.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-097-01-3851d22509.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-098",
+    "name": "Кольцо  Apm Monaco",
+    "price": 15000,
+    "category": "rings",
+    "image": "/uploads/products/apm-monaco-098-01-7d436a1e1c.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-098-01-7d436a1e1c.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Размер": "16,17,18р",
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-099",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-099-01-392eebb46d.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-099-01-392eebb46d.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-100",
+    "name": "Серьги  Apm Monaco",
+    "price": 19000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-100-01-693d7ff514.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-100-01-693d7ff514.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-101",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-101-01-d9feb37b56.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-101-01-d9feb37b56.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-102",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-102-01-a890111a4b.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-102-01-a890111a4b.jpg",
+      "/uploads/products/apm-monaco-102-02-2c5cbd897c.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-103",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-103-01-857d8ac352.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-103-01-857d8ac352.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-104",
+    "name": "Серьги  Apm Monaco",
+    "price": 15000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-104-01-f6c0aa2653.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-104-01-f6c0aa2653.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-105",
+    "name": "Серьги  Apm Monaco",
+    "price": 19000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-105-01-47e3cd54d9.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-105-01-47e3cd54d9.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-106",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-106-01-1aa1980758.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-106-01-1aa1980758.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-107",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-107-01-1aebdf7fb4.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-107-01-1aebdf7fb4.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-108",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-108-01-da56552e33.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-108-01-da56552e33.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-109",
+    "name": "Серьги  Apm Monaco",
+    "price": 19000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-109-01-656f6e1c62.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-109-01-656f6e1c62.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-110",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-110-01-ca03a4275c.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-110-01-ca03a4275c.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-111",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-111-01-357981f947.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-111-01-357981f947.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-112",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-112-01-10de0cb114.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-112-01-10de0cb114.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-113",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-113-01-1903fec5f2.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-113-01-1903fec5f2.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-114",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-114-01-2afcdebf33.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-114-01-2afcdebf33.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-115",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-115-01-86644b4458.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-115-01-86644b4458.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-116",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-116-01-df00ba5a4c.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-116-01-df00ba5a4c.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-117",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-117-01-d2b5ad8a17.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-117-01-d2b5ad8a17.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-118",
+    "name": "Серьги  Apm Monaco",
+    "price": 19000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-118-01-2ea34d0167.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-118-01-2ea34d0167.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-119",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-119-01-75cd6f841f.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-119-01-75cd6f841f.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-120",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-120-01-87d9443c72.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-120-01-87d9443c72.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-121",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-121-01-c9a10523f8.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-121-01-c9a10523f8.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-122",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-122-01-d05284d89e.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-122-01-d05284d89e.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-123",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-123-01-75f4435dd5.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-123-01-75f4435dd5.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-124",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-124-01-5845056572.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-124-01-5845056572.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-125",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-125-01-01cf067845.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-125-01-01cf067845.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-126",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-126-01-b33799498a.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-126-01-b33799498a.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-127",
+    "name": "Серьги  Apm Monaco",
+    "price": 16000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-127-01-a8b7c32126.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-127-01-a8b7c32126.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-128",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-128-01-e9222cd1a8.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-128-01-e9222cd1a8.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-129",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-129-01-1d7423620c.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-129-01-1d7423620c.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
+    "isBestseller": false,
+    "bestsellerOrder": null
+  },
+  {
+    "id": "apm-monaco-130",
+    "name": "Серьги  Apm Monaco",
+    "price": 17000,
+    "category": "earrings",
+    "image": "/uploads/products/apm-monaco-130-01-8800bd49f9.jpg",
+    "images": [
+      "/uploads/products/apm-monaco-130-01-8800bd49f9.jpg"
+    ],
+    "description": "Характеристики указаны в карточке товара.",
+    "specifications": {
+      "Материал": "в серебре 925",
+      "Вставки": "цирконы"
+    },
+    "stock": null,
+    "sourceStockNote": "Остаток не указан в переписке — подтвердить перед публикацией.",
+    "status": "active",
+    "isNew": false,
+    "popular": false,
     "isBestseller": false,
     "bestsellerOrder": null
   }

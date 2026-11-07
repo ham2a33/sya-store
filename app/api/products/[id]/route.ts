@@ -50,14 +50,15 @@ export async function PATCH(request: Request, context: RouteContext) {
     if (body.material != null) patch.material = String(body.material);
     if (body.color != null) patch.color = String(body.color);
     if (body.size != null) patch.size = String(body.size);
-    if (body.stock != null) patch.stock = Number(body.stock);
+    if ('stock' in body) patch.stock = body.stock == null ? null : Number(body.stock);
+    if (body.specifications != null) patch.specifications = body.specifications;
     if (body.isNew != null) patch.isNew = Boolean(body.isNew);
     if (body.popular != null) patch.popular = Boolean(body.popular);
     if (body.isBestseller != null) patch.isBestseller = Boolean(body.isBestseller);
     if (body.bestsellerOrder != null) {
       patch.bestsellerOrder = body.bestsellerOrder === '' ? null : Number(body.bestsellerOrder);
     }
-    if (body.status === 'archived' || body.status === 'active') patch.status = body.status;
+    if (body.status === 'archived' || body.status === 'active' || body.status === 'draft') patch.status = body.status;
 
     const updated = await updateProduct(id, patch);
     if (!updated) {

@@ -487,6 +487,12 @@ body {
   transition: transform 0.4s ease;
 }
 
+.catalog-card-placeholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(145deg, #eee7df, #e5dbd0);
+}
+
 .catalog-card-overlay {
   position: absolute;
   inset: 0;
@@ -561,6 +567,12 @@ body {
   object-fit: cover;
   display: block;
   border-radius: 9px;
+}
+
+.product-image-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(145deg, #eee7df, #e5dbd0);
 }
 
 .heart {

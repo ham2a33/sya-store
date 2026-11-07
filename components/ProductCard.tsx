@@ -37,7 +37,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       >
         <Heart size={17} fill={favorite ? 'currentColor' : 'none'} />
       </button>
-      <img src={product.image} alt={product.name} />
+      {product.image ? <img src={product.image} alt={product.name} /> : <div className="product-image-placeholder" aria-label="Фото пока не добавлено" />}
       <div className="product-info">
         <h3>{product.name}</h3>
         <strong>{formatPrice(product.price)}</strong>

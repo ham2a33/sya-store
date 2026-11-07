@@ -75,7 +75,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         if (!product || !product.inStock) return current;
 
         const currentQty = current.filter((id) => id === productId).length;
-        const allowed = Math.max(0, product.stock - currentQty);
+        const allowed = Math.max(0, (product.stock ?? 0) - currentQty);
         const toAdd = Math.min(quantity, allowed);
         if (toAdd <= 0) return current;
 
@@ -115,7 +115,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         if (!product || !product.inStock) return current;
 
         const currentQty = current.filter((id) => id === productId).length;
-        if (currentQty >= product.stock) return current;
+        if (currentQty >= (product.stock ?? 0)) return current;
 
         return [...current, productId];
       });

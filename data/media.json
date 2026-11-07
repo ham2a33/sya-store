@@ -5,5 +5,1230 @@
     "filename": "1786543677710-46d2d5a6.png",
     "uploadedAt": "2026-08-12T14:07:57.745Z",
     "label": "ChatGPT Image 12 авг. 2026 г., 15_58_33.png"
+  },
+  {
+    "id": "a08baa80-a7fc-45e0-8104-e3bd9a2d2a97",
+    "url": "/uploads/products/tennis-bracelet-apm-001-01-d6bfbb1cb6.jpg",
+    "filename": "tennis-bracelet-apm-001-01-d6bfbb1cb6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.882Z",
+    "label": "00000080-PHOTO-2026-11-05-22-57-19.jpg"
+  },
+  {
+    "id": "c96c7250-bf31-4c5f-9fdc-ba19e5d8bc2a",
+    "url": "/uploads/products/tennis-bracelet-apm-001-02-11079c93cf.jpg",
+    "filename": "tennis-bracelet-apm-001-02-11079c93cf.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.882Z",
+    "label": "00000081-PHOTO-2026-11-05-22-57-23.jpg"
+  },
+  {
+    "id": "e33131cc-4889-4620-aba0-5520786ec182",
+    "url": "/uploads/products/yacht-club-apm-yellow-gold-01-e958a725ca.jpg",
+    "filename": "yacht-club-apm-yellow-gold-01-e958a725ca.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.882Z",
+    "label": "00000085-PHOTO-2026-11-05-23-00-11.jpg"
+  },
+  {
+    "id": "3204d8e8-14ac-42e0-b1f9-625a3687bfd5",
+    "url": "/uploads/products/yacht-club-apm-yellow-gold-02-60303d918d.jpg",
+    "filename": "yacht-club-apm-yellow-gold-02-60303d918d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.883Z",
+    "label": "00000086-PHOTO-2026-11-05-23-00-12.jpg"
+  },
+  {
+    "id": "5d07893f-31f7-4b58-8711-668c4d28371d",
+    "url": "/uploads/products/yacht-club-apm-yellow-gold-03-b4c133eb16.jpg",
+    "filename": "yacht-club-apm-yellow-gold-03-b4c133eb16.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.883Z",
+    "label": "00000087-PHOTO-2026-11-05-23-00-12.jpg"
+  },
+  {
+    "id": "d89f392f-ce85-456c-afbb-a3737a0e9aba",
+    "url": "/uploads/products/yacht-club-apm-rose-gold-01-308eae6b3b.jpg",
+    "filename": "yacht-club-apm-rose-gold-01-308eae6b3b.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.883Z",
+    "label": "00000089-PHOTO-2026-11-05-23-01-00.jpg"
+  },
+  {
+    "id": "573680f4-7bd2-47ec-b7d5-c0b8aa10b970",
+    "url": "/uploads/products/yacht-club-apm-rose-gold-02-f6fe6380ed.jpg",
+    "filename": "yacht-club-apm-rose-gold-02-f6fe6380ed.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.884Z",
+    "label": "00000090-PHOTO-2026-11-05-23-01-01.jpg"
+  },
+  {
+    "id": "80862e75-beb4-4290-bf8a-076e14423536",
+    "url": "/uploads/products/yacht-club-apm-rose-gold-03-be1db7334f.jpg",
+    "filename": "yacht-club-apm-rose-gold-03-be1db7334f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.884Z",
+    "label": "00000091-PHOTO-2026-11-05-23-01-01.jpg"
+  },
+  {
+    "id": "1b11bbf2-9ea5-44e5-af00-a5c70ea69728",
+    "url": "/uploads/products/marine-apm-yellow-gold-01-bdc9473a6f.jpg",
+    "filename": "marine-apm-yellow-gold-01-bdc9473a6f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.884Z",
+    "label": "00000092-PHOTO-2026-11-05-23-03-42.jpg"
+  },
+  {
+    "id": "53420851-78fc-4bbb-b43b-ee779f939fe3",
+    "url": "/uploads/products/marine-apm-yellow-gold-02-747348c042.jpg",
+    "filename": "marine-apm-yellow-gold-02-747348c042.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.885Z",
+    "label": "00000093-PHOTO-2026-11-05-23-03-42.jpg"
+  },
+  {
+    "id": "69682e3a-ae81-46a0-8266-a7f997acba1f",
+    "url": "/uploads/products/marine-apm-yellow-gold-03-016c5ce888.jpg",
+    "filename": "marine-apm-yellow-gold-03-016c5ce888.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.886Z",
+    "label": "00000094-PHOTO-2026-11-05-23-03-43.jpg"
+  },
+  {
+    "id": "acc17d4f-6582-4cf0-9577-5270edcc2018",
+    "url": "/uploads/products/marine-apm-yellow-gold-04-967bbf5485.jpg",
+    "filename": "marine-apm-yellow-gold-04-967bbf5485.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.887Z",
+    "label": "00000095-PHOTO-2026-11-05-23-03-43.jpg"
+  },
+  {
+    "id": "b0b1a57e-ce95-4efc-99b9-94f2de1bbe3d",
+    "url": "/uploads/products/marine-apm-rose-gold-01-9741200c95.jpg",
+    "filename": "marine-apm-rose-gold-01-9741200c95.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.887Z",
+    "label": "00000096-PHOTO-2026-11-05-23-09-28.jpg"
+  },
+  {
+    "id": "8ebd3454-ad57-45d2-942c-5f8105205084",
+    "url": "/uploads/products/marine-apm-rose-gold-02-7717c3ab5c.jpg",
+    "filename": "marine-apm-rose-gold-02-7717c3ab5c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.887Z",
+    "label": "00000097-PHOTO-2026-11-05-23-09-28.jpg"
+  },
+  {
+    "id": "2ef9b3ec-b685-4909-8fdc-a106fcc4accd",
+    "url": "/uploads/products/marine-apm-rose-gold-03-9f14d34322.jpg",
+    "filename": "marine-apm-rose-gold-03-9f14d34322.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.888Z",
+    "label": "00000098-PHOTO-2026-11-05-23-09-29.jpg"
+  },
+  {
+    "id": "94f6b55c-a2eb-4ae9-82a0-599134c81706",
+    "url": "/uploads/products/marine-apm-rose-gold-04-af7918f48b.jpg",
+    "filename": "marine-apm-rose-gold-04-af7918f48b.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.890Z",
+    "label": "00000099-PHOTO-2026-11-05-23-09-29.jpg"
+  },
+  {
+    "id": "056d520a-a194-43fd-b660-b196517cc282",
+    "url": "/uploads/products/marine-apm-silver-01-7632c0edc1.jpg",
+    "filename": "marine-apm-silver-01-7632c0edc1.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.890Z",
+    "label": "00000100-PHOTO-2026-11-05-23-10-57.jpg"
+  },
+  {
+    "id": "cfe473c5-a13a-49c2-842c-5e2172f52cbd",
+    "url": "/uploads/products/marine-apm-silver-02-08332e7733.jpg",
+    "filename": "marine-apm-silver-02-08332e7733.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.891Z",
+    "label": "00000101-PHOTO-2026-11-05-23-10-58.jpg"
+  },
+  {
+    "id": "170a1512-bd9a-4ffb-9a3d-b3f46e4c6ab8",
+    "url": "/uploads/products/marine-apm-silver-03-967bbf5485.jpg",
+    "filename": "marine-apm-silver-03-967bbf5485.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.891Z",
+    "label": "00000102-PHOTO-2026-11-05-23-10-58.jpg"
+  },
+  {
+    "id": "1e13c3b3-9433-4990-9b82-9bf4f42748f4",
+    "url": "/uploads/products/marine-apm-silver-04-0202a8fc2d.jpg",
+    "filename": "marine-apm-silver-04-0202a8fc2d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.892Z",
+    "label": "00000103-PHOTO-2026-11-05-23-10-58.jpg"
+  },
+  {
+    "id": "0c538d92-2a8a-4274-9f71-267fa8de8164",
+    "url": "/uploads/products/heart-apm-rose-gold-01-01-516bca88fe.jpg",
+    "filename": "heart-apm-rose-gold-01-01-516bca88fe.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.892Z",
+    "label": "00000110-PHOTO-2026-11-06-10-42-23.jpg"
+  },
+  {
+    "id": "41ae4169-be17-479a-a360-31eb67660061",
+    "url": "/uploads/products/heart-apm-rose-gold-01-02-41ae5ec608.jpg",
+    "filename": "heart-apm-rose-gold-01-02-41ae5ec608.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.893Z",
+    "label": "00000111-PHOTO-2026-11-06-10-42-23.jpg"
+  },
+  {
+    "id": "a431c448-8759-466d-a532-89c95f2b6ea3",
+    "url": "/uploads/products/heart-apm-rose-gold-02-01-7d3597e0dd.jpg",
+    "filename": "heart-apm-rose-gold-02-01-7d3597e0dd.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.893Z",
+    "label": "00000114-PHOTO-2026-11-06-10-44-38.jpg"
+  },
+  {
+    "id": "5eb6092c-5c2e-4f77-b40e-17e5e86f4739",
+    "url": "/uploads/products/heart-apm-rose-gold-02-02-e3d38016b5.jpg",
+    "filename": "heart-apm-rose-gold-02-02-e3d38016b5.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.894Z",
+    "label": "00000115-PHOTO-2026-11-06-10-44-38.jpg"
+  },
+  {
+    "id": "6840cffc-7a50-4713-97ed-1fe8339613cc",
+    "url": "/uploads/products/butterfly-apm-silver-01-01-2e4030d197.jpg",
+    "filename": "butterfly-apm-silver-01-01-2e4030d197.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.894Z",
+    "label": "00000118-PHOTO-2026-11-06-10-45-51.jpg"
+  },
+  {
+    "id": "933f7fdf-bd22-4db4-ba83-223f10e49cfd",
+    "url": "/uploads/products/butterfly-apm-silver-01-02-2b03d991c0.jpg",
+    "filename": "butterfly-apm-silver-01-02-2b03d991c0.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.894Z",
+    "label": "00000119-PHOTO-2026-11-06-10-45-51.jpg"
+  },
+  {
+    "id": "61966493-ed5c-43be-93f1-622b8f42dd2e",
+    "url": "/uploads/products/butterfly-apm-silver-02-01-2e33e9ad7c.jpg",
+    "filename": "butterfly-apm-silver-02-01-2e33e9ad7c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.895Z",
+    "label": "00000121-PHOTO-2026-11-06-10-46-40.jpg"
+  },
+  {
+    "id": "14508a60-5603-4493-94b9-e27142f6adbc",
+    "url": "/uploads/products/butterfly-apm-silver-02-02-b6874e82d6.jpg",
+    "filename": "butterfly-apm-silver-02-02-b6874e82d6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.896Z",
+    "label": "00000122-PHOTO-2026-11-06-10-46-40.jpg"
+  },
+  {
+    "id": "55e4dd2a-5b22-4c92-bfca-01c8961483d5",
+    "url": "/uploads/products/meteorite-apm-011-01-6c2efa3c53.jpg",
+    "filename": "meteorite-apm-011-01-6c2efa3c53.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.896Z",
+    "label": "00000124-PHOTO-2026-11-06-10-47-38.jpg"
+  },
+  {
+    "id": "fb18773e-4756-45ce-bbeb-a11b1a4d50cf",
+    "url": "/uploads/products/meteorite-apm-011-02-683d8731d5.jpg",
+    "filename": "meteorite-apm-011-02-683d8731d5.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.897Z",
+    "label": "00000125-PHOTO-2026-11-06-10-47-38.jpg"
+  },
+  {
+    "id": "561f0513-ffe9-4a50-9ce9-07641f755ce5",
+    "url": "/uploads/products/meteorite-apm-012-01-0026667421.jpg",
+    "filename": "meteorite-apm-012-01-0026667421.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.899Z",
+    "label": "00000126-PHOTO-2026-11-06-10-48-31.jpg"
+  },
+  {
+    "id": "3b3e3bba-d9eb-4a3c-92ba-cba027e9ad6f",
+    "url": "/uploads/products/meteorite-apm-012-02-d0e715f498.jpg",
+    "filename": "meteorite-apm-012-02-d0e715f498.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.899Z",
+    "label": "00000127-PHOTO-2026-11-06-10-48-32.jpg"
+  },
+  {
+    "id": "13c4da5e-7c90-4743-a5fd-a0b87c44a953",
+    "url": "/uploads/products/apm-013-01-c45f5443c0.jpg",
+    "filename": "apm-013-01-c45f5443c0.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.900Z",
+    "label": "00000128-PHOTO-2026-11-06-10-52-46.jpg"
+  },
+  {
+    "id": "a46f74ed-36a7-43f6-aa19-6fc1c15f70bf",
+    "url": "/uploads/products/apm-014-01-310f4c0676.jpg",
+    "filename": "apm-014-01-310f4c0676.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.901Z",
+    "label": "00000130-PHOTO-2026-11-06-10-53-12.jpg"
+  },
+  {
+    "id": "4258530a-d171-4600-b6b9-13379d7db003",
+    "url": "/uploads/products/apm-014-02-a1f6c47830.jpg",
+    "filename": "apm-014-02-a1f6c47830.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.901Z",
+    "label": "00000131-PHOTO-2026-11-06-10-53-12.jpg"
+  },
+  {
+    "id": "070a9bcc-1e06-442e-b39d-57709b202c31",
+    "url": "/uploads/products/apm-015-01-eff749a832.jpg",
+    "filename": "apm-015-01-eff749a832.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.901Z",
+    "label": "00000133-PHOTO-2026-11-06-10-53-36.jpg"
+  },
+  {
+    "id": "4577bcae-7164-4243-9f47-7813003f228c",
+    "url": "/uploads/products/apm-015-02-4891dc774e.jpg",
+    "filename": "apm-015-02-4891dc774e.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.902Z",
+    "label": "00000134-PHOTO-2026-11-06-10-53-36.jpg"
+  },
+  {
+    "id": "66805baa-50e1-4577-b640-679c86159e59",
+    "url": "/uploads/products/apm-016-01-d18b529941.jpg",
+    "filename": "apm-016-01-d18b529941.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.902Z",
+    "label": "00000136-PHOTO-2026-11-06-10-53-46.jpg"
+  },
+  {
+    "id": "1dbaefa8-5a91-4972-9c65-26e673854e2f",
+    "url": "/uploads/products/apm-016-02-d44d479db5.jpg",
+    "filename": "apm-016-02-d44d479db5.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.903Z",
+    "label": "00000137-PHOTO-2026-11-06-10-53-46.jpg"
+  },
+  {
+    "id": "720fc07e-449f-4c2a-bf52-18dfdcc2e8ad",
+    "url": "/uploads/products/apm-017-01-accab02131.jpg",
+    "filename": "apm-017-01-accab02131.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.903Z",
+    "label": "00000139-PHOTO-2026-11-06-10-54-10.jpg"
+  },
+  {
+    "id": "2b609868-03cf-40b9-bd3a-bfcf369e695f",
+    "url": "/uploads/products/apm-017-02-061c887d19.jpg",
+    "filename": "apm-017-02-061c887d19.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.903Z",
+    "label": "00000140-PHOTO-2026-11-06-10-54-10.jpg"
+  },
+  {
+    "id": "03816016-21e1-4032-abf5-82fabba7643f",
+    "url": "/uploads/products/apm-018-01-f566045342.jpg",
+    "filename": "apm-018-01-f566045342.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.904Z",
+    "label": "00000142-PHOTO-2026-11-06-10-54-25.jpg"
+  },
+  {
+    "id": "e74c59cb-c834-4d29-a9bc-c8f0171a7d0b",
+    "url": "/uploads/products/apm-018-02-5b7cbd89a7.jpg",
+    "filename": "apm-018-02-5b7cbd89a7.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.904Z",
+    "label": "00000143-PHOTO-2026-11-06-10-54-25.jpg"
+  },
+  {
+    "id": "dbb2284c-fac1-4bba-99ac-fd2e18e3e009",
+    "url": "/uploads/products/apm-019-01-22b191ff86.jpg",
+    "filename": "apm-019-01-22b191ff86.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.905Z",
+    "label": "00000145-PHOTO-2026-11-06-10-55-39.jpg"
+  },
+  {
+    "id": "468eef27-4587-4517-b643-52df9d587006",
+    "url": "/uploads/products/apm-019-02-c466696605.jpg",
+    "filename": "apm-019-02-c466696605.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.905Z",
+    "label": "00000146-PHOTO-2026-11-06-10-55-39.jpg"
+  },
+  {
+    "id": "ed2e216d-0992-4334-86f0-8d59a42931f1",
+    "url": "/uploads/products/apm-020-01-71cf7fcb50.jpg",
+    "filename": "apm-020-01-71cf7fcb50.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.906Z",
+    "label": "00000149-PHOTO-2026-11-06-10-56-15.jpg"
+  },
+  {
+    "id": "79c20831-604b-4b38-859c-4df3a05a4895",
+    "url": "/uploads/products/apm-020-02-ea8d154a7f.jpg",
+    "filename": "apm-020-02-ea8d154a7f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.906Z",
+    "label": "00000150-PHOTO-2026-11-06-10-56-15.jpg"
+  },
+  {
+    "id": "31be08c4-143a-462b-85a6-aa637c6b8074",
+    "url": "/uploads/products/apm-021-01-5e902aa7db.jpg",
+    "filename": "apm-021-01-5e902aa7db.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.907Z",
+    "label": "00000153-PHOTO-2026-11-06-10-56-46.jpg"
+  },
+  {
+    "id": "c7fdddd8-86a1-4acc-8912-ec95a5788042",
+    "url": "/uploads/products/apm-021-02-f77289661b.jpg",
+    "filename": "apm-021-02-f77289661b.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.908Z",
+    "label": "00000154-PHOTO-2026-11-06-10-56-47.jpg"
+  },
+  {
+    "id": "ce6fb0d4-eccf-41b1-9718-97b3c3604822",
+    "url": "/uploads/products/apm-022-01-219e694051.jpg",
+    "filename": "apm-022-01-219e694051.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.908Z",
+    "label": "00000156-PHOTO-2026-11-06-10-58-07.jpg"
+  },
+  {
+    "id": "b67d263f-cdac-43d7-acdc-20c188e840ea",
+    "url": "/uploads/products/apm-022-02-87df26c52a.jpg",
+    "filename": "apm-022-02-87df26c52a.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.908Z",
+    "label": "00000157-PHOTO-2026-11-06-10-58-07.jpg"
+  },
+  {
+    "id": "fab3dfb2-6971-4894-9e48-cc07871a282f",
+    "url": "/uploads/products/apm-023-01-55fd837ee6.jpg",
+    "filename": "apm-023-01-55fd837ee6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.909Z",
+    "label": "00000159-PHOTO-2026-11-06-10-58-58.jpg"
+  },
+  {
+    "id": "61ab8079-8eca-40d7-a1fe-add4d3aeb265",
+    "url": "/uploads/products/apm-023-02-39049a90f4.jpg",
+    "filename": "apm-023-02-39049a90f4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.909Z",
+    "label": "00000160-PHOTO-2026-11-06-10-58-58.jpg"
+  },
+  {
+    "id": "d45b3944-de82-4e48-9ee1-496c99d7b56f",
+    "url": "/uploads/products/apm-024-01-04b61d520f.jpg",
+    "filename": "apm-024-01-04b61d520f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.909Z",
+    "label": "00000162-PHOTO-2026-11-06-10-59-52.jpg"
+  },
+  {
+    "id": "42668f7c-d900-41f3-a4ad-20fc39362497",
+    "url": "/uploads/products/apm-024-02-a653d929de.jpg",
+    "filename": "apm-024-02-a653d929de.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.910Z",
+    "label": "00000163-PHOTO-2026-11-06-10-59-53.jpg"
+  },
+  {
+    "id": "2dda2dfc-3799-4bde-95c8-e4e6e1ed1b08",
+    "url": "/uploads/products/apm-025-01-10eaeafc70.jpg",
+    "filename": "apm-025-01-10eaeafc70.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.910Z",
+    "label": "00000165-PHOTO-2026-11-06-11-08-37.jpg"
+  },
+  {
+    "id": "b263a3cd-cb86-4fe6-a79d-c447f86bd0ba",
+    "url": "/uploads/products/apm-025-02-c27cfd5158.jpg",
+    "filename": "apm-025-02-c27cfd5158.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.910Z",
+    "label": "00000166-PHOTO-2026-11-06-11-08-37.jpg"
+  },
+  {
+    "id": "b8a3f481-a9aa-4118-a173-ecf9bc96b38e",
+    "url": "/uploads/products/apm-026-01-846f4ad98e.jpg",
+    "filename": "apm-026-01-846f4ad98e.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.911Z",
+    "label": "00000168-PHOTO-2026-11-06-11-09-26.jpg"
+  },
+  {
+    "id": "93110608-93ec-4c5e-bc81-db8dfb171dd1",
+    "url": "/uploads/products/apm-026-02-76d283328e.jpg",
+    "filename": "apm-026-02-76d283328e.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.912Z",
+    "label": "00000169-PHOTO-2026-11-06-11-09-26.jpg"
+  },
+  {
+    "id": "c6e54b90-aab6-4f2d-bfb7-bfb2deee4c8a",
+    "url": "/uploads/products/apm-027-01-7253493f17.jpg",
+    "filename": "apm-027-01-7253493f17.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.912Z",
+    "label": "00000171-PHOTO-2026-11-06-11-10-37.jpg"
+  },
+  {
+    "id": "1d7b7199-0bb0-465d-a35f-6c7f8a740263",
+    "url": "/uploads/products/apm-027-02-104f241068.jpg",
+    "filename": "apm-027-02-104f241068.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.913Z",
+    "label": "00000172-PHOTO-2026-11-06-11-10-37.jpg"
+  },
+  {
+    "id": "f80df808-4437-43a8-99a4-5c5311ed90da",
+    "url": "/uploads/products/apm-028-01-c8493e65bc.jpg",
+    "filename": "apm-028-01-c8493e65bc.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.913Z",
+    "label": "00000174-PHOTO-2026-11-06-11-11-15.jpg"
+  },
+  {
+    "id": "ea6766b9-0e29-471d-925b-ee683473bd40",
+    "url": "/uploads/products/apm-028-02-fe61c74ac2.jpg",
+    "filename": "apm-028-02-fe61c74ac2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.914Z",
+    "label": "00000175-PHOTO-2026-11-06-11-11-15.jpg"
+  },
+  {
+    "id": "f397529e-59cd-435d-aa8d-1a6e72d7e198",
+    "url": "/uploads/products/graff-029-01-6e404d43d7.jpg",
+    "filename": "graff-029-01-6e404d43d7.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.914Z",
+    "label": "00000177-PHOTO-2026-11-06-11-15-56.jpg"
+  },
+  {
+    "id": "5a919bef-7591-4b6d-b6ed-3520f67cf972",
+    "url": "/uploads/products/graff-029-02-882d992793.jpg",
+    "filename": "graff-029-02-882d992793.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.914Z",
+    "label": "00000178-PHOTO-2026-11-06-11-15-56.jpg"
+  },
+  {
+    "id": "6107e44a-73b3-4f31-b669-653b03cbccbc",
+    "url": "/uploads/products/graff-030-01-ea8fa1c7c2.jpg",
+    "filename": "graff-030-01-ea8fa1c7c2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.915Z",
+    "label": "00000180-PHOTO-2026-11-06-11-16-04.jpg"
+  },
+  {
+    "id": "376c05b0-967d-4899-b2a1-a9e329af8614",
+    "url": "/uploads/products/graff-030-02-25ee048450.jpg",
+    "filename": "graff-030-02-25ee048450.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.915Z",
+    "label": "00000181-PHOTO-2026-11-06-11-16-04.jpg"
+  },
+  {
+    "id": "6e21b593-0786-4621-b658-6f673f4857ac",
+    "url": "/uploads/products/graff-031-01-d3c0230df2.jpg",
+    "filename": "graff-031-01-d3c0230df2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.916Z",
+    "label": "00000183-PHOTO-2026-11-06-11-37-00.jpg"
+  },
+  {
+    "id": "ad96b9e8-5ca1-4cc2-8ac9-27d8e6a7738e",
+    "url": "/uploads/products/graff-031-02-a03715432f.jpg",
+    "filename": "graff-031-02-a03715432f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.916Z",
+    "label": "00000184-PHOTO-2026-11-06-11-37-00.jpg"
+  },
+  {
+    "id": "e09adbfd-3744-47b7-881b-43091f84afae",
+    "url": "/uploads/products/graff-032-01-b6670e87fc.jpg",
+    "filename": "graff-032-01-b6670e87fc.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.916Z",
+    "label": "00000188-PHOTO-2026-11-06-11-39-04.jpg"
+  },
+  {
+    "id": "529ba9c1-7fd0-47f3-84d3-6bb646833a56",
+    "url": "/uploads/products/graff-033-01-f0cfc3116a.jpg",
+    "filename": "graff-033-01-f0cfc3116a.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.917Z",
+    "label": "00000190-PHOTO-2026-11-06-11-44-38.jpg"
+  },
+  {
+    "id": "0a5979d4-6cb4-4ee5-84e3-b9394a56fb0c",
+    "url": "/uploads/products/graff-033-02-8c0ac431e6.jpg",
+    "filename": "graff-033-02-8c0ac431e6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.917Z",
+    "label": "00000191-PHOTO-2026-11-06-11-44-38.jpg"
+  },
+  {
+    "id": "af4da50e-473b-40c0-934b-2d36e86f1b63",
+    "url": "/uploads/products/graff-033-03-e352b464f6.jpg",
+    "filename": "graff-033-03-e352b464f6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.917Z",
+    "label": "00000192-PHOTO-2026-11-06-11-46-55.jpg"
+  },
+  {
+    "id": "1379b107-c916-4f2b-a80c-6158a7924f8e",
+    "url": "/uploads/products/apm-035-01-1b699d0bb2.jpg",
+    "filename": "apm-035-01-1b699d0bb2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.917Z",
+    "label": "00000194-PHOTO-2026-11-06-11-47-29.jpg"
+  },
+  {
+    "id": "6d0dd58d-f2ab-40db-96c9-1290bce3e55e",
+    "url": "/uploads/products/apm-036-01-52ada574b5.jpg",
+    "filename": "apm-036-01-52ada574b5.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.918Z",
+    "label": "00000195-PHOTO-2026-11-06-11-50-08.jpg"
+  },
+  {
+    "id": "25d22965-c0b1-40f3-8746-48facd8a729b",
+    "url": "/uploads/products/apm-036-02-f88100c8ad.jpg",
+    "filename": "apm-036-02-f88100c8ad.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.919Z",
+    "label": "00000196-PHOTO-2026-11-06-11-50-09.jpg"
+  },
+  {
+    "id": "622e19a4-f48b-4970-96a9-ef62223edeb8",
+    "url": "/uploads/products/apm-036-03-a032459dfa.jpg",
+    "filename": "apm-036-03-a032459dfa.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.919Z",
+    "label": "00000203-PHOTO-2026-11-07-11-20-52.jpg"
+  },
+  {
+    "id": "2a5d47a9-e207-4906-8cad-d7390b4b6dbd",
+    "url": "/uploads/products/apm-037-01-215b2e20cc.jpg",
+    "filename": "apm-037-01-215b2e20cc.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.920Z",
+    "label": "00000204-PHOTO-2026-11-07-11-20-52.jpg"
+  },
+  {
+    "id": "df54e629-4d10-4577-bef8-c0e2531b0c6d",
+    "url": "/uploads/products/apm-037-02-9910f5d03e.jpg",
+    "filename": "apm-037-02-9910f5d03e.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.920Z",
+    "label": "00000205-PHOTO-2026-11-07-11-21-20.jpg"
+  },
+  {
+    "id": "3ffce71e-2613-4b52-8ba5-96d3f460f199",
+    "url": "/uploads/products/apm-038-01-9d9870862b.jpg",
+    "filename": "apm-038-01-9d9870862b.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.920Z",
+    "label": "00000206-PHOTO-2026-11-07-11-21-20.jpg"
+  },
+  {
+    "id": "a01d5236-57dc-4357-b8ff-45ed2fdded86",
+    "url": "/uploads/products/apm-038-02-9ee17c0c99.jpg",
+    "filename": "apm-038-02-9ee17c0c99.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.921Z",
+    "label": "00000207-PHOTO-2026-11-07-11-21-48.jpg"
+  },
+  {
+    "id": "a4a992c6-48f5-4db7-8844-d585dd630576",
+    "url": "/uploads/products/apm-039-01-1cb780747c.jpg",
+    "filename": "apm-039-01-1cb780747c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.921Z",
+    "label": "00000208-PHOTO-2026-11-07-11-21-49.jpg"
+  },
+  {
+    "id": "38f9d711-d7a5-490e-a66d-7a1d47339e14",
+    "url": "/uploads/products/apm-040-01-1cfb777138.jpg",
+    "filename": "apm-040-01-1cfb777138.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.921Z",
+    "label": "00000209-PHOTO-2026-11-07-11-22-14.jpg"
+  },
+  {
+    "id": "e6a052c1-0cf4-4f97-96d9-9603189fde1b",
+    "url": "/uploads/products/apm-041-01-3431284874.jpg",
+    "filename": "apm-041-01-3431284874.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.922Z",
+    "label": "00000210-PHOTO-2026-11-07-11-22-34.jpg"
+  },
+  {
+    "id": "a4de264b-f61b-46c7-b686-87b3d4764218",
+    "url": "/uploads/products/apm-042-01-67aac8a6a9.jpg",
+    "filename": "apm-042-01-67aac8a6a9.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.922Z",
+    "label": "00000211-PHOTO-2026-11-07-11-22-51.jpg"
+  },
+  {
+    "id": "80e77836-f8f3-4c20-85c2-3add99f89f10",
+    "url": "/uploads/products/apm-043-01-ce5d74938c.jpg",
+    "filename": "apm-043-01-ce5d74938c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.922Z",
+    "label": "00000212-PHOTO-2026-11-07-11-23-10.jpg"
+  },
+  {
+    "id": "5fd0c8b5-f264-4698-97f8-8725e51046b6",
+    "url": "/uploads/products/apm-044-01-f536c3e0ad.jpg",
+    "filename": "apm-044-01-f536c3e0ad.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.923Z",
+    "label": "00000213-PHOTO-2026-11-07-11-26-13.jpg"
+  },
+  {
+    "id": "2c7a6f30-9f0b-4c59-b9b6-3babd54816fb",
+    "url": "/uploads/products/apm-045-01-6332a3c45f.jpg",
+    "filename": "apm-045-01-6332a3c45f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.923Z",
+    "label": "00000214-PHOTO-2026-11-07-11-26-14.jpg"
+  },
+  {
+    "id": "464613a1-009e-46b9-8f08-e41fd252dbe8",
+    "url": "/uploads/products/apm-046-01-0c4d59d0d3.jpg",
+    "filename": "apm-046-01-0c4d59d0d3.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.924Z",
+    "label": "00000215-PHOTO-2026-11-07-11-26-14.jpg"
+  },
+  {
+    "id": "e1beed79-d683-4a9d-866c-da1a87b2b241",
+    "url": "/uploads/products/apm-047-01-bdead8eafb.jpg",
+    "filename": "apm-047-01-bdead8eafb.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.924Z",
+    "label": "00000216-PHOTO-2026-11-07-11-26-15.jpg"
+  },
+  {
+    "id": "c57b823d-e25c-4d6d-acd4-905a5cc6ef24",
+    "url": "/uploads/products/apm-048-01-64cd0feff2.jpg",
+    "filename": "apm-048-01-64cd0feff2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.925Z",
+    "label": "00000217-PHOTO-2026-11-07-11-26-15.jpg"
+  },
+  {
+    "id": "dc4f1ec9-7595-46f6-934d-5af705fa1a7e",
+    "url": "/uploads/products/apm-049-01-1829759066.jpg",
+    "filename": "apm-049-01-1829759066.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.926Z",
+    "label": "00000218-PHOTO-2026-11-07-11-26-16.jpg"
+  },
+  {
+    "id": "383c6190-8cf0-49a3-a75e-14a196a4c4a5",
+    "url": "/uploads/products/apm-050-01-0fc7f79388.jpg",
+    "filename": "apm-050-01-0fc7f79388.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.926Z",
+    "label": "00000219-PHOTO-2026-11-07-11-26-16.jpg"
+  },
+  {
+    "id": "c03e5e1e-e021-46d1-b0d8-94f4e5e5b885",
+    "url": "/uploads/products/apm-051-01-4ec2589ad1.jpg",
+    "filename": "apm-051-01-4ec2589ad1.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.927Z",
+    "label": "00000220-PHOTO-2026-11-07-11-26-17.jpg"
+  },
+  {
+    "id": "aaa170d2-8757-4871-be86-6d0fce6dc678",
+    "url": "/uploads/products/apm-052-01-078cfadd2a.jpg",
+    "filename": "apm-052-01-078cfadd2a.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.927Z",
+    "label": "00000221-PHOTO-2026-11-07-11-26-17.jpg"
+  },
+  {
+    "id": "2951129c-d616-4624-9016-611ad1bacf27",
+    "url": "/uploads/products/apm-053-01-089d88a490.jpg",
+    "filename": "apm-053-01-089d88a490.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.927Z",
+    "label": "00000222-PHOTO-2026-11-07-11-35-08.jpg"
+  },
+  {
+    "id": "3ea26a9b-9237-4a84-a8e8-ae5d1b16a5f2",
+    "url": "/uploads/products/apm-054-01-cadb5e1623.jpg",
+    "filename": "apm-054-01-cadb5e1623.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.928Z",
+    "label": "00000223-PHOTO-2026-11-07-11-35-08.jpg"
+  },
+  {
+    "id": "2f9f1b57-fb6a-4faf-bcd6-385ad4bac31a",
+    "url": "/uploads/products/apm-055-01-604972e6c7.jpg",
+    "filename": "apm-055-01-604972e6c7.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.928Z",
+    "label": "00000224-PHOTO-2026-11-07-11-35-08.jpg"
+  },
+  {
+    "id": "e8a07541-908f-46ab-9770-0fd402312873",
+    "url": "/uploads/products/apm-056-01-d21fab2b7c.jpg",
+    "filename": "apm-056-01-d21fab2b7c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.928Z",
+    "label": "00000225-PHOTO-2026-11-07-11-35-09.jpg"
+  },
+  {
+    "id": "5f7a06ed-e6a4-4b08-8a16-f9855e1a7090",
+    "url": "/uploads/products/apm-057-01-aae9e4dea4.jpg",
+    "filename": "apm-057-01-aae9e4dea4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.928Z",
+    "label": "00000226-PHOTO-2026-11-07-11-35-10.jpg"
+  },
+  {
+    "id": "6bd95dfb-7f49-40cc-b7ab-5967b10cc887",
+    "url": "/uploads/products/apm-058-01-fa26771c6c.jpg",
+    "filename": "apm-058-01-fa26771c6c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.929Z",
+    "label": "00000227-PHOTO-2026-11-07-11-35-10.jpg"
+  },
+  {
+    "id": "8ea7b4dd-db12-47ed-952f-2aa702234213",
+    "url": "/uploads/products/jewelry-059-01-d2bf6d4836.jpg",
+    "filename": "jewelry-059-01-d2bf6d4836.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.929Z",
+    "label": "00000228-PHOTO-2026-11-07-11-35-10.jpg"
+  },
+  {
+    "id": "c94c489d-a58d-48fa-9cba-61df661fd972",
+    "url": "/uploads/products/apm-060-01-15ddda920f.jpg",
+    "filename": "apm-060-01-15ddda920f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.930Z",
+    "label": "00000229-PHOTO-2026-11-07-11-35-11.jpg"
+  },
+  {
+    "id": "3a5e8745-e01a-49e8-a65e-429461541865",
+    "url": "/uploads/products/apm-061-01-be67c4d644.jpg",
+    "filename": "apm-061-01-be67c4d644.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.930Z",
+    "label": "00000230-PHOTO-2026-11-07-11-35-12.jpg"
+  },
+  {
+    "id": "a2d6e8b8-39fc-430d-8711-817aa7bb5229",
+    "url": "/uploads/products/jewelry-062-01-24ad72d17f.jpg",
+    "filename": "jewelry-062-01-24ad72d17f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.931Z",
+    "label": "00000231-PHOTO-2026-11-07-11-35-12.jpg"
+  },
+  {
+    "id": "19db30e9-b8eb-49d6-849d-a486fd615d25",
+    "url": "/uploads/products/jewelry-063-01-c519af8f5d.jpg",
+    "filename": "jewelry-063-01-c519af8f5d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.931Z",
+    "label": "00000232-PHOTO-2026-11-07-11-35-12.jpg"
+  },
+  {
+    "id": "b2518939-6e0c-4ea7-ac50-af52e230a458",
+    "url": "/uploads/products/apm-064-01-4c5619b356.jpg",
+    "filename": "apm-064-01-4c5619b356.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.931Z",
+    "label": "00000233-PHOTO-2026-11-07-11-35-13.jpg"
+  },
+  {
+    "id": "a1e02286-d116-4121-b3c0-aa5c65f21f2e",
+    "url": "/uploads/products/apm-065-01-6449646180.jpg",
+    "filename": "apm-065-01-6449646180.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.932Z",
+    "label": "00000234-PHOTO-2026-11-07-11-35-14.jpg"
+  },
+  {
+    "id": "73b97fcd-67bd-4b01-9e95-ee621f0e84e9",
+    "url": "/uploads/products/jewelry-066-01-dde43cd785.jpg",
+    "filename": "jewelry-066-01-dde43cd785.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.932Z",
+    "label": "00000235-PHOTO-2026-11-07-11-48-52.jpg"
+  },
+  {
+    "id": "543bc6e3-338e-4bd8-8d84-24fa8bc72a30",
+    "url": "/uploads/products/apm-monaco-067-01-0df88b25ca.jpg",
+    "filename": "apm-monaco-067-01-0df88b25ca.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.933Z",
+    "label": "00000236-PHOTO-2026-11-07-11-48-52.jpg"
+  },
+  {
+    "id": "441479e1-0fc8-4d72-a863-1b7786e2562f",
+    "url": "/uploads/products/apm-monaco-068-01-f87fe2b255.jpg",
+    "filename": "apm-monaco-068-01-f87fe2b255.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.933Z",
+    "label": "00000237-PHOTO-2026-11-07-11-48-53.jpg"
+  },
+  {
+    "id": "46bb2326-0d65-4798-8955-b7f418bb8c10",
+    "url": "/uploads/products/apm-monaco-068-02-d76cf2f973.jpg",
+    "filename": "apm-monaco-068-02-d76cf2f973.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.934Z",
+    "label": "00000238-PHOTO-2026-11-07-11-48-53.jpg"
+  },
+  {
+    "id": "92cbf1d4-ed5f-4c7d-b71a-efa955399991",
+    "url": "/uploads/products/apm-monaco-069-01-f0cb87cadb.jpg",
+    "filename": "apm-monaco-069-01-f0cb87cadb.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.934Z",
+    "label": "00000239-PHOTO-2026-11-07-11-48-54.jpg"
+  },
+  {
+    "id": "86dc093a-875a-4717-a0b2-a401b2fb11c2",
+    "url": "/uploads/products/apm-monaco-070-01-336014ce1a.jpg",
+    "filename": "apm-monaco-070-01-336014ce1a.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.934Z",
+    "label": "00000240-PHOTO-2026-11-07-11-48-54.jpg"
+  },
+  {
+    "id": "2e5c4204-a5b5-4655-b43b-6a8057000362",
+    "url": "/uploads/products/apm-monaco-071-01-8bc993f966.jpg",
+    "filename": "apm-monaco-071-01-8bc993f966.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.935Z",
+    "label": "00000241-PHOTO-2026-11-07-11-48-55.jpg"
+  },
+  {
+    "id": "ed0c2e35-e3e4-4124-b48d-fae2c1f47089",
+    "url": "/uploads/products/apm-monaco-072-01-9a180ba264.jpg",
+    "filename": "apm-monaco-072-01-9a180ba264.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.935Z",
+    "label": "00000242-PHOTO-2026-11-07-11-48-55.jpg"
+  },
+  {
+    "id": "76d872b2-494b-4a1d-a120-30dbf002de9c",
+    "url": "/uploads/products/apm-monaco-073-01-4b31e049c8.jpg",
+    "filename": "apm-monaco-073-01-4b31e049c8.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.936Z",
+    "label": "00000243-PHOTO-2026-11-07-11-48-56.jpg"
+  },
+  {
+    "id": "d15c359c-07e4-4770-b23c-cbcc8daacabd",
+    "url": "/uploads/products/apm-monaco-074-01-187a99358f.jpg",
+    "filename": "apm-monaco-074-01-187a99358f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.937Z",
+    "label": "00000244-PHOTO-2026-11-07-11-48-56.jpg"
+  },
+  {
+    "id": "a8ef081b-0084-43f0-95c4-8ec38a4a0394",
+    "url": "/uploads/products/apm-monaco-075-01-a804025c25.jpg",
+    "filename": "apm-monaco-075-01-a804025c25.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.937Z",
+    "label": "00000245-PHOTO-2026-11-07-11-48-57.jpg"
+  },
+  {
+    "id": "26852ab7-edc4-4df0-bbfc-1f4e10f09918",
+    "url": "/uploads/products/apm-monaco-076-01-f9ff1b3371.jpg",
+    "filename": "apm-monaco-076-01-f9ff1b3371.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.937Z",
+    "label": "00000246-PHOTO-2026-11-07-11-48-57.jpg"
+  },
+  {
+    "id": "3afb865b-a1ad-47e5-8abb-3c48a053b918",
+    "url": "/uploads/products/apm-monaco-077-01-bdfe6877b6.jpg",
+    "filename": "apm-monaco-077-01-bdfe6877b6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.938Z",
+    "label": "00000247-PHOTO-2026-11-07-11-48-58.jpg"
+  },
+  {
+    "id": "3396b132-0445-427d-bde7-8af752f7e0e3",
+    "url": "/uploads/products/apm-monaco-078-01-0b248e302d.jpg",
+    "filename": "apm-monaco-078-01-0b248e302d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.938Z",
+    "label": "00000248-PHOTO-2026-11-07-11-48-59.jpg"
+  },
+  {
+    "id": "08d4d086-4db1-4d9e-9544-948f809b81fb",
+    "url": "/uploads/products/apm-monaco-079-01-03753a75ef.jpg",
+    "filename": "apm-monaco-079-01-03753a75ef.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.938Z",
+    "label": "00000249-PHOTO-2026-11-07-11-48-59.jpg"
+  },
+  {
+    "id": "1504c59a-0a1e-481d-b48a-9b71a06b5e6a",
+    "url": "/uploads/products/apm-monaco-080-01-a9be4f6783.jpg",
+    "filename": "apm-monaco-080-01-a9be4f6783.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.939Z",
+    "label": "00000250-PHOTO-2026-11-07-11-48-59.jpg"
+  },
+  {
+    "id": "af153bfe-8282-4ecb-8fc9-03a0e6efb706",
+    "url": "/uploads/products/apm-monaco-081-01-9636e99dac.jpg",
+    "filename": "apm-monaco-081-01-9636e99dac.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.940Z",
+    "label": "00000251-PHOTO-2026-11-07-11-49-00.jpg"
+  },
+  {
+    "id": "0aae04e1-bda7-41a3-af61-cb30aee3f6ef",
+    "url": "/uploads/products/apm-monaco-082-01-bfa45178c4.jpg",
+    "filename": "apm-monaco-082-01-bfa45178c4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.940Z",
+    "label": "00000252-PHOTO-2026-11-07-11-49-00.jpg"
+  },
+  {
+    "id": "ced952be-9307-4ae5-962a-dbe14910a9f1",
+    "url": "/uploads/products/apm-monaco-083-01-cb240bbef4.jpg",
+    "filename": "apm-monaco-083-01-cb240bbef4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.940Z",
+    "label": "00000253-PHOTO-2026-11-07-11-49-01.jpg"
+  },
+  {
+    "id": "f60cf55b-db71-4904-89d4-a1feb8d22d2a",
+    "url": "/uploads/products/apm-monaco-084-01-0ee367d457.jpg",
+    "filename": "apm-monaco-084-01-0ee367d457.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.941Z",
+    "label": "00000254-PHOTO-2026-11-07-11-49-02.jpg"
+  },
+  {
+    "id": "6ebbc6bc-3aa6-43b6-b82c-4f261b7d4eed",
+    "url": "/uploads/products/apm-monaco-085-01-4fa0a44cd3.jpg",
+    "filename": "apm-monaco-085-01-4fa0a44cd3.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.941Z",
+    "label": "00000255-PHOTO-2026-11-07-11-49-02.jpg"
+  },
+  {
+    "id": "df723f75-6eda-422b-ae31-2aaf6675abdd",
+    "url": "/uploads/products/apm-monaco-086-01-df96461827.jpg",
+    "filename": "apm-monaco-086-01-df96461827.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.942Z",
+    "label": "00000256-PHOTO-2026-11-07-11-49-03.jpg"
+  },
+  {
+    "id": "73d06e91-df2e-44c6-b0ae-50c61f362344",
+    "url": "/uploads/products/apm-monaco-087-01-196bb7e4c6.jpg",
+    "filename": "apm-monaco-087-01-196bb7e4c6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.942Z",
+    "label": "00000257-PHOTO-2026-11-07-11-49-03.jpg"
+  },
+  {
+    "id": "86870508-3d16-4a9f-ab30-c8b4d7743356",
+    "url": "/uploads/products/apm-monaco-088-01-09b24f4d3d.jpg",
+    "filename": "apm-monaco-088-01-09b24f4d3d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.942Z",
+    "label": "00000258-PHOTO-2026-11-07-11-49-04.jpg"
+  },
+  {
+    "id": "f42a0b4c-ebff-4b7f-bf81-d779bea3a446",
+    "url": "/uploads/products/apm-monaco-089-01-6823bf80f4.jpg",
+    "filename": "apm-monaco-089-01-6823bf80f4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.943Z",
+    "label": "00000259-PHOTO-2026-11-07-11-49-04.jpg"
+  },
+  {
+    "id": "c958fed7-6200-41c5-a846-df68080b61cd",
+    "url": "/uploads/products/apm-monaco-090-01-7b6465aae6.jpg",
+    "filename": "apm-monaco-090-01-7b6465aae6.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.943Z",
+    "label": "00000260-PHOTO-2026-11-07-11-49-05.jpg"
+  },
+  {
+    "id": "a946db53-8417-432f-84a0-0e049e459c53",
+    "url": "/uploads/products/apm-monaco-091-01-4bbd163a62.jpg",
+    "filename": "apm-monaco-091-01-4bbd163a62.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.944Z",
+    "label": "00000261-PHOTO-2026-11-07-11-49-05.jpg"
+  },
+  {
+    "id": "ae9723a5-f081-4350-a69a-4a930e7c5a67",
+    "url": "/uploads/products/apm-monaco-092-01-663bfe3de9.jpg",
+    "filename": "apm-monaco-092-01-663bfe3de9.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.944Z",
+    "label": "00000262-PHOTO-2026-11-07-11-49-06.jpg"
+  },
+  {
+    "id": "f4f39b4b-3623-4afd-8b31-646cbac576d0",
+    "url": "/uploads/products/apm-monaco-093-01-4676e0ee44.jpg",
+    "filename": "apm-monaco-093-01-4676e0ee44.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.945Z",
+    "label": "00000263-PHOTO-2026-11-07-11-49-06.jpg"
+  },
+  {
+    "id": "5f120290-7cac-4b62-a370-4a842f323a87",
+    "url": "/uploads/products/apm-monaco-094-01-210ff137a7.jpg",
+    "filename": "apm-monaco-094-01-210ff137a7.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.945Z",
+    "label": "00000264-PHOTO-2026-11-07-11-49-07.jpg"
+  },
+  {
+    "id": "90636095-16e7-4415-8f78-e977bb8fb538",
+    "url": "/uploads/products/apm-monaco-095-01-fd3067df48.jpg",
+    "filename": "apm-monaco-095-01-fd3067df48.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.946Z",
+    "label": "00000265-PHOTO-2026-11-07-11-49-07.jpg"
+  },
+  {
+    "id": "7077e0c7-dd57-401b-b48b-adafbaaecdd7",
+    "url": "/uploads/products/apm-monaco-096-01-546a1e1747.jpg",
+    "filename": "apm-monaco-096-01-546a1e1747.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.946Z",
+    "label": "00000266-PHOTO-2026-11-07-11-49-08.jpg"
+  },
+  {
+    "id": "b4fcaadb-d053-4973-829e-63d633146959",
+    "url": "/uploads/products/apm-monaco-097-01-3851d22509.jpg",
+    "filename": "apm-monaco-097-01-3851d22509.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.946Z",
+    "label": "00000267-PHOTO-2026-11-07-11-49-08.jpg"
+  },
+  {
+    "id": "cd3c569f-6dfe-4685-9036-cfb337dfd974",
+    "url": "/uploads/products/apm-monaco-098-01-7d436a1e1c.jpg",
+    "filename": "apm-monaco-098-01-7d436a1e1c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.946Z",
+    "label": "00000268-PHOTO-2026-11-07-11-49-09.jpg"
+  },
+  {
+    "id": "3d3eb54a-8dcf-488a-82d1-9ac9921aa5b3",
+    "url": "/uploads/products/apm-monaco-099-01-392eebb46d.jpg",
+    "filename": "apm-monaco-099-01-392eebb46d.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.947Z",
+    "label": "00000269-PHOTO-2026-11-07-12-08-00.jpg"
+  },
+  {
+    "id": "8d5645df-da1e-433f-8a86-868437ee9e75",
+    "url": "/uploads/products/apm-monaco-100-01-693d7ff514.jpg",
+    "filename": "apm-monaco-100-01-693d7ff514.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.947Z",
+    "label": "00000270-PHOTO-2026-11-07-12-08-01.jpg"
+  },
+  {
+    "id": "33058806-4f6b-4542-8b9c-f8aefce9f491",
+    "url": "/uploads/products/apm-monaco-101-01-d9feb37b56.jpg",
+    "filename": "apm-monaco-101-01-d9feb37b56.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.948Z",
+    "label": "00000271-PHOTO-2026-11-07-12-08-01.jpg"
+  },
+  {
+    "id": "3618be4e-784f-4056-a02a-07743bb98f78",
+    "url": "/uploads/products/apm-monaco-102-01-a890111a4b.jpg",
+    "filename": "apm-monaco-102-01-a890111a4b.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.948Z",
+    "label": "00000272-PHOTO-2026-11-07-12-08-01.jpg"
+  },
+  {
+    "id": "79ea0c4d-9870-4ca2-a978-10d5418dd909",
+    "url": "/uploads/products/apm-monaco-102-02-2c5cbd897c.jpg",
+    "filename": "apm-monaco-102-02-2c5cbd897c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.949Z",
+    "label": "00000273-PHOTO-2026-11-07-12-08-02.jpg"
+  },
+  {
+    "id": "0e339a02-e1b6-4f4f-bf90-b081ebee2432",
+    "url": "/uploads/products/apm-monaco-103-01-857d8ac352.jpg",
+    "filename": "apm-monaco-103-01-857d8ac352.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.949Z",
+    "label": "00000274-PHOTO-2026-11-07-12-08-02.jpg"
+  },
+  {
+    "id": "551808ee-e927-46f1-ad42-e62418880474",
+    "url": "/uploads/products/apm-monaco-104-01-f6c0aa2653.jpg",
+    "filename": "apm-monaco-104-01-f6c0aa2653.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.949Z",
+    "label": "00000275-PHOTO-2026-11-07-12-08-03.jpg"
+  },
+  {
+    "id": "904b6744-8817-40fe-a5c8-1458e1643176",
+    "url": "/uploads/products/apm-monaco-105-01-47e3cd54d9.jpg",
+    "filename": "apm-monaco-105-01-47e3cd54d9.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.950Z",
+    "label": "00000276-PHOTO-2026-11-07-12-08-03.jpg"
+  },
+  {
+    "id": "6f4b4ddb-23b7-4a28-82f8-19ab4cf51dca",
+    "url": "/uploads/products/apm-monaco-106-01-1aa1980758.jpg",
+    "filename": "apm-monaco-106-01-1aa1980758.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.950Z",
+    "label": "00000277-PHOTO-2026-11-07-12-08-04.jpg"
+  },
+  {
+    "id": "c83f0cac-e9d2-4089-b53e-ba05582c535e",
+    "url": "/uploads/products/apm-monaco-107-01-1aebdf7fb4.jpg",
+    "filename": "apm-monaco-107-01-1aebdf7fb4.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.950Z",
+    "label": "00000278-PHOTO-2026-11-07-12-08-05.jpg"
+  },
+  {
+    "id": "0dd8b830-d5bc-436e-8b25-de69fc4264ff",
+    "url": "/uploads/products/apm-monaco-108-01-da56552e33.jpg",
+    "filename": "apm-monaco-108-01-da56552e33.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.951Z",
+    "label": "00000279-PHOTO-2026-11-07-12-08-05.jpg"
+  },
+  {
+    "id": "be0e0df1-8f4a-4894-be4c-c4d018e55906",
+    "url": "/uploads/products/apm-monaco-109-01-656f6e1c62.jpg",
+    "filename": "apm-monaco-109-01-656f6e1c62.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.951Z",
+    "label": "00000280-PHOTO-2026-11-07-12-08-05.jpg"
+  },
+  {
+    "id": "6abb27cb-5f47-47e0-a502-3fc352c63531",
+    "url": "/uploads/products/apm-monaco-110-01-ca03a4275c.jpg",
+    "filename": "apm-monaco-110-01-ca03a4275c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.951Z",
+    "label": "00000281-PHOTO-2026-11-07-12-08-06.jpg"
+  },
+  {
+    "id": "cb4e3253-5820-4724-a469-c4f6d7cb0f82",
+    "url": "/uploads/products/apm-monaco-111-01-357981f947.jpg",
+    "filename": "apm-monaco-111-01-357981f947.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.952Z",
+    "label": "00000282-PHOTO-2026-11-07-12-08-07.jpg"
+  },
+  {
+    "id": "fde7760e-4990-483c-857b-a33724261b4f",
+    "url": "/uploads/products/apm-monaco-112-01-10de0cb114.jpg",
+    "filename": "apm-monaco-112-01-10de0cb114.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.952Z",
+    "label": "00000283-PHOTO-2026-11-07-12-08-07.jpg"
+  },
+  {
+    "id": "86dbf181-c3df-49e7-8421-8de8cb19b0f1",
+    "url": "/uploads/products/apm-monaco-113-01-1903fec5f2.jpg",
+    "filename": "apm-monaco-113-01-1903fec5f2.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.952Z",
+    "label": "00000284-PHOTO-2026-11-07-12-08-08.jpg"
+  },
+  {
+    "id": "840a1e78-2a93-4b07-b222-bd6c08b59bbc",
+    "url": "/uploads/products/apm-monaco-114-01-2afcdebf33.jpg",
+    "filename": "apm-monaco-114-01-2afcdebf33.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.953Z",
+    "label": "00000285-PHOTO-2026-11-07-12-08-08.jpg"
+  },
+  {
+    "id": "214d6a41-5a88-46ae-8050-8875767db1f8",
+    "url": "/uploads/products/apm-monaco-115-01-86644b4458.jpg",
+    "filename": "apm-monaco-115-01-86644b4458.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.953Z",
+    "label": "00000286-PHOTO-2026-11-07-12-08-10.jpg"
+  },
+  {
+    "id": "b637e81b-7571-497a-9981-147d95257209",
+    "url": "/uploads/products/apm-monaco-116-01-df00ba5a4c.jpg",
+    "filename": "apm-monaco-116-01-df00ba5a4c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.954Z",
+    "label": "00000287-PHOTO-2026-11-07-12-08-10.jpg"
+  },
+  {
+    "id": "38776ad9-e119-40f9-8f3a-b14aaa1d39ff",
+    "url": "/uploads/products/apm-monaco-117-01-d2b5ad8a17.jpg",
+    "filename": "apm-monaco-117-01-d2b5ad8a17.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.954Z",
+    "label": "00000288-PHOTO-2026-11-07-12-08-12.jpg"
+  },
+  {
+    "id": "d4f48bfb-6a40-4eae-8076-d7ca5e9820af",
+    "url": "/uploads/products/apm-monaco-118-01-2ea34d0167.jpg",
+    "filename": "apm-monaco-118-01-2ea34d0167.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.954Z",
+    "label": "00000289-PHOTO-2026-11-07-12-08-12.jpg"
+  },
+  {
+    "id": "a28daea3-c3fd-4686-9241-c36c615a82a3",
+    "url": "/uploads/products/apm-monaco-119-01-75cd6f841f.jpg",
+    "filename": "apm-monaco-119-01-75cd6f841f.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.955Z",
+    "label": "00000290-PHOTO-2026-11-07-12-08-13.jpg"
+  },
+  {
+    "id": "961d6381-cc90-412d-b9eb-682c3ea19905",
+    "url": "/uploads/products/apm-monaco-120-01-87d9443c72.jpg",
+    "filename": "apm-monaco-120-01-87d9443c72.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.955Z",
+    "label": "00000291-PHOTO-2026-11-07-12-08-14.jpg"
+  },
+  {
+    "id": "f98ce8a0-e503-401d-bf58-796706013b70",
+    "url": "/uploads/products/apm-monaco-121-01-c9a10523f8.jpg",
+    "filename": "apm-monaco-121-01-c9a10523f8.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.956Z",
+    "label": "00000292-PHOTO-2026-11-07-12-08-14.jpg"
+  },
+  {
+    "id": "08a4d787-a270-452c-9160-093a1c8629ef",
+    "url": "/uploads/products/apm-monaco-122-01-d05284d89e.jpg",
+    "filename": "apm-monaco-122-01-d05284d89e.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.957Z",
+    "label": "00000293-PHOTO-2026-11-07-12-08-16.jpg"
+  },
+  {
+    "id": "f98ac867-33f5-40f9-bcb1-d2cc12579780",
+    "url": "/uploads/products/apm-monaco-123-01-75f4435dd5.jpg",
+    "filename": "apm-monaco-123-01-75f4435dd5.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.957Z",
+    "label": "00000294-PHOTO-2026-11-07-12-08-16.jpg"
+  },
+  {
+    "id": "7975c1d3-504f-4db8-8eeb-898b2d99d378",
+    "url": "/uploads/products/apm-monaco-124-01-5845056572.jpg",
+    "filename": "apm-monaco-124-01-5845056572.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.957Z",
+    "label": "00000295-PHOTO-2026-11-07-12-08-16.jpg"
+  },
+  {
+    "id": "330c752f-1233-406c-be81-87dfacd35088",
+    "url": "/uploads/products/apm-monaco-125-01-01cf067845.jpg",
+    "filename": "apm-monaco-125-01-01cf067845.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.958Z",
+    "label": "00000296-PHOTO-2026-11-07-12-08-17.jpg"
+  },
+  {
+    "id": "2c02d7fa-054d-4bab-833c-077aaf45c836",
+    "url": "/uploads/products/apm-monaco-126-01-b33799498a.jpg",
+    "filename": "apm-monaco-126-01-b33799498a.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.958Z",
+    "label": "00000297-PHOTO-2026-11-07-12-08-17.jpg"
+  },
+  {
+    "id": "db5e6005-b695-4764-aba0-205bd2ff4806",
+    "url": "/uploads/products/apm-monaco-127-01-a8b7c32126.jpg",
+    "filename": "apm-monaco-127-01-a8b7c32126.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.959Z",
+    "label": "00000298-PHOTO-2026-11-07-12-11-08.jpg"
+  },
+  {
+    "id": "158ddb73-be71-49a9-83ac-a732b16eb8d2",
+    "url": "/uploads/products/apm-monaco-128-01-e9222cd1a8.jpg",
+    "filename": "apm-monaco-128-01-e9222cd1a8.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.959Z",
+    "label": "00000299-PHOTO-2026-11-07-12-11-08.jpg"
+  },
+  {
+    "id": "467b7c61-820e-49cc-a730-4b67f9b9df4f",
+    "url": "/uploads/products/apm-monaco-129-01-1d7423620c.jpg",
+    "filename": "apm-monaco-129-01-1d7423620c.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.959Z",
+    "label": "00000300-PHOTO-2026-11-07-12-11-09.jpg"
+  },
+  {
+    "id": "b74b98bc-4599-4955-8530-24f73b532730",
+    "url": "/uploads/products/apm-monaco-130-01-8800bd49f9.jpg",
+    "filename": "apm-monaco-130-01-8800bd49f9.jpg",
+    "uploadedAt": "2026-11-07T13:48:51.959Z",
+    "label": "00000301-PHOTO-2026-11-07-12-11-09.jpg"
   }
 ]

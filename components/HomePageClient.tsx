@@ -58,7 +58,7 @@ export default function HomePageClient() {
                   key={category.slug}
                   href={`/catalog/${category.slug}`}
                 >
-                  <img src={category.image} alt={category.title} loading="lazy" />
+                  {category.image ? <img src={category.image} alt={category.title} loading="lazy" /> : <div className="catalog-card-placeholder" aria-hidden="true" />}
                   <div className="catalog-card-overlay" aria-hidden="true" />
                   <span className="catalog-card-label">{category.title}</span>
                 </Link>

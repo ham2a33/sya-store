@@ -49,7 +49,7 @@ export default function ProductDetail({ product }: { product: Product }) {
   const [activeImage, setActiveImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
-  const images = product.images.length ? product.images : [product.image];
+  const images = product.images.length ? product.images : product.image ? [product.image] : [];
 
   const handleAdd = () => {
     addProduct(product.id, quantity);
@@ -77,9 +77,9 @@ export default function ProductDetail({ product }: { product: Product }) {
           <div className="product-detail">
             <div className="product-gallery">
               <div className="product-gallery-main">
-                <img src={images[activeImage]} alt={product.name} />
+                {images.length ? <img src={images[activeImage]} alt={product.name} /> : <div className="product-image-placeholder" aria-label="Фото пока не добавлено" />}
               </div>
-              <div className="product-gallery-thumbs">
+              {images.length > 1 && <div className="product-gallery-thumbs">
                 {images.map((image, index) => (
                   <button
                     key={image + index}
@@ -92,7 +92,7 @@ export default function ProductDetail({ product }: { product: Product }) {
                     <img src={image} alt="" />
                   </button>
                 ))}
-              </div>
+              </div>}
             </div>
 
             <div className="product-detail-info">
@@ -122,6 +122,11 @@ export default function ProductDetail({ product }: { product: Product }) {
                   <strong>{product.size}</strong>
                 </div>
               )}
+              {product.specifications && Object.entries(product.specifications).map(([label, value]) => (
+                <div className="product-detail-meta" key={label}>
+                  <span>{label}</span><strong>{value}</strong>
+                </div>
+              ))}
 
               <div className="product-detail-about">
                 <h2>О ТОВАРЕ</h2>

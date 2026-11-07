@@ -22,7 +22,7 @@ type ProductFormValues = {
   images: string[];
   isNew: boolean;
   popular: boolean;
-  status: 'active' | 'archived';
+  status: 'active' | 'archived' | 'draft';
 };
 
 type ProductFormProps = {
@@ -37,7 +37,7 @@ function toFormValues(product?: Product): ProductFormValues {
     price: product ? String(product.price) : '',
     oldPrice: product?.oldPrice ? String(product.oldPrice) : '',
     category: product?.category ?? 'rings',
-    stock: product ? String(product.stock) : '0',
+    stock: product?.stock == null ? '' : String(product.stock),
     description: product?.description ?? '',
     material: product?.material ?? '',
     color: product?.color ?? '',
@@ -46,7 +46,7 @@ function toFormValues(product?: Product): ProductFormValues {
     images: product?.images?.length ? product.images : product?.image ? [product.image] : [],
     isNew: product?.isNew ?? false,
     popular: product?.popular ?? false,
-    status: product?.status === 'archived' ? 'archived' : 'active',
+    status: product?.status === 'draft' ? 'draft' : product?.status === 'archived' ? 'archived' : 'active',
   };
 }
 
@@ -94,7 +94,7 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
       ...values,
       price: Number(values.price),
       oldPrice: values.oldPrice ? Number(values.oldPrice) : undefined,
-      stock: Number(values.stock),
+      stock: values.stock === '' ? null : Number(values.stock),
       image: values.image || images[0],
       images,
     };
@@ -222,11 +222,12 @@ export default function ProductForm({ mode, initialProduct }: ProductFormProps) 
               onChange={(event) =>
                 setValues({
                   ...values,
-                  status: event.target.value as 'active' | 'archived',
+                  status: event.target.value as 'active' | 'archived' | 'draft',
                 })
               }
             >
               <option value="active">Активен</option>
+              <option value="draft">Черновик</option>
               <option value="archived">Архив</option>
             </select>
           </label>

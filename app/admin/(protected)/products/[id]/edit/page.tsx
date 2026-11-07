@@ -19,7 +19,7 @@ export default async function AdminEditProductPage({
       mode="edit"
       initialProduct={{
         ...product,
-        inStock: product.stock > 0 && product.status === 'active',
+        inStock: (product.stock ?? 0) > 0 && product.status === 'active',
       }}
     />
   );

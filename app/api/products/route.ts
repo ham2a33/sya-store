@@ -24,7 +24,7 @@ export async function GET(request: Request) {
   const products = includeArchived
     ? (await getAllStoredProducts()).map((product) => ({
         ...product,
-        inStock: product.stock > 0 && product.status === 'active',
+        inStock: (product.stock ?? 0) > 0 && product.status === 'active',
       }))
     : await getAllProducts();
 
@@ -52,10 +52,11 @@ export async function POST(request: Request) {
       material: body.material ? String(body.material) : undefined,
       color: body.color ? String(body.color) : undefined,
       size: body.size ? String(body.size) : undefined,
-      stock: Number(body.stock ?? 0),
+      stock: body.stock == null ? null : Number(body.stock),
       isNew: Boolean(body.isNew),
       popular: Boolean(body.popular),
-      status: body.status === 'archived' ? 'archived' : 'active',
+      status: body.status === 'archived' || body.status === 'draft' ? body.status : 'active',
+      specifications: body.specifications as Record<string, string> | undefined,
     });
 
     if (!product.id || !product.name || !product.category || !product.image) {
