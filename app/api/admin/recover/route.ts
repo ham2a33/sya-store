@@ -1,4 +1,4 @@
-import { randomBytes, timingSafeEqual } from 'node:crypto';
+import { createHash, randomBytes, timingSafeEqual } from 'node:crypto';
 import { constants } from 'node:fs';
 import { lstat, open, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -10,7 +10,7 @@ export const dynamic = 'force-dynamic';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const USERS_PATH = path.join(DATA_DIR, 'users.json');
-const USED_PATH = path.join(DATA_DIR, '.admin-recovery-used');
+const LEGACY_USED_PATH = path.join(DATA_DIR, '.admin-recovery-used');
 const LOCK_PATH = path.join(DATA_DIR, '.admin-recovery-lock');
 const MAX_BODY_BYTES = 16 * 1024;
 
@@ -117,6 +117,9 @@ export async function POST(request: Request) {
     return jsonError('Пароль должен содержать не менее 8 символов.', 400);
   }
 
+  const tokenFingerprint = createHash('sha256').update(expectedToken).digest('hex');
+  const usedPath = path.join(DATA_DIR, `.admin-recovery-used-${tokenFingerprint}`);
+
   let lockHandle;
   let lockAcquired = false;
   let tempPath: string | undefined;
@@ -132,8 +135,15 @@ export async function POST(request: Request) {
     }
     lockAcquired = true;
 
-    if (await exists(USED_PATH)) {
+    if (await exists(usedPath)) {
       return jsonError('Recovery token уже использован.', 410);
+    }
+
+    // Archive the old global marker after a valid new token is proven. This keeps
+    // the old audit record without letting it block a newly configured token.
+    if (await exists(LEGACY_USED_PATH)) {
+      const archivePath = `${LEGACY_USED_PATH}.legacy-${new Date().toISOString().replaceAll(':', '-')}-${randomBytes(4).toString('hex')}`;
+      await rename(LEGACY_USED_PATH, archivePath);
     }
 
     const info = await lstat(USERS_PATH);
@@ -181,7 +191,7 @@ export async function POST(request: Request) {
     // Consume the token immediately before the atomic replacement. A failed rename
     // removes this marker; a process crash cannot leave a successfully changed file
     // with a reusable token.
-    const markerHandle = await open(USED_PATH, 'wx', 0o600);
+    const markerHandle = await open(usedPath, 'wx', 0o600);
     markerCreated = true;
     try {
       await markerHandle.writeFile(`${new Date().toISOString()}\n`);
@@ -200,7 +210,7 @@ export async function POST(request: Request) {
       headers: { 'Cache-Control': 'no-store' },
     });
   } catch {
-    if (markerCreated) await unlink(USED_PATH).catch(() => {});
+    if (markerCreated) await unlink(usedPath).catch(() => {});
     return jsonError('Не удалось безопасно обновить учётную запись.', 500);
   } finally {
     if (tempPath) await unlink(tempPath).catch(() => {});
