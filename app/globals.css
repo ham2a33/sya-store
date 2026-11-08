@@ -694,17 +694,22 @@ body {
   font-family: var(--font-serif), Georgia, serif;
   font-size: 38px;
   font-weight: 400;
-  margin: 4px 0 12px;
+  line-height: 1.12;
+  margin: 4px 0 10px;
 }
 
 .about-copy p:not(.eyebrow) {
-  font-size: 13px;
-  line-height: 1.7;
-  max-width: 430px;
+  font-size: 14px;
+  line-height: 1.75;
+  max-width: 470px;
+  margin: 8px 0;
 }
 
-.about-copy .dark-btn {
-  margin-top: 12px;
+.about-copy .about-signature {
+  margin-top: 14px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 
 /* ── Footer ── */
