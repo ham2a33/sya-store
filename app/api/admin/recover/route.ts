@@ -39,6 +39,22 @@ function validUserArray(value: unknown): value is User[] {
   );
 }
 
+function normalizeRecoveryToken(value: string): string {
+  let normalized = value.replace(/^\uFEFF/, '').trim();
+  const assignment = normalized.match(/^ADMIN_RECOVERY_TOKEN\s*=\s*([\s\S]*)$/i);
+  if (assignment) normalized = assignment[1].trim();
+
+  if (
+    normalized.length >= 2 &&
+    ((normalized.startsWith('"') && normalized.endsWith('"')) ||
+      (normalized.startsWith("'") && normalized.endsWith("'")))
+  ) {
+    normalized = normalized.slice(1, -1).trim();
+  }
+
+  return normalized.replace(/\s+/g, '');
+}
+
 async function exists(filePath: string): Promise<boolean> {
   try {
     await lstat(filePath);
@@ -50,9 +66,7 @@ async function exists(filePath: string): Promise<boolean> {
 }
 
 export async function POST(request: Request) {
-  // Compose and Dokploy can preserve copied line endings or wrapping whitespace.
-  // Recovery tokens are generated as hex, so whitespace is formatting, not entropy.
-  const expectedToken = (process.env.ADMIN_RECOVERY_TOKEN ?? '').replace(/\s+/g, '');
+  const expectedToken = normalizeRecoveryToken(process.env.ADMIN_RECOVERY_TOKEN ?? '');
   if (!expectedToken || Buffer.byteLength(expectedToken) < 32) {
     return jsonError('Восстановление администратора не настроено.', 503);
   }
@@ -87,7 +101,7 @@ export async function POST(request: Request) {
     return jsonError('Некорректный запрос.', 400);
   }
 
-  const token = typeof body.token === 'string' ? body.token.replace(/\s+/g, '') : '';
+  const token = typeof body.token === 'string' ? normalizeRecoveryToken(body.token) : '';
   const tokenBytes = Buffer.from(token);
   const expectedBytes = Buffer.from(expectedToken);
   if (tokenBytes.length !== expectedBytes.length || !timingSafeEqual(tokenBytes, expectedBytes)) {
