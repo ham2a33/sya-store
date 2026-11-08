@@ -50,7 +50,9 @@ async function exists(filePath: string): Promise<boolean> {
 }
 
 export async function POST(request: Request) {
-  const expectedToken = process.env.ADMIN_RECOVERY_TOKEN;
+  // Compose and Dokploy can preserve copied line endings or wrapping whitespace.
+  // Recovery tokens are generated as hex, so whitespace is formatting, not entropy.
+  const expectedToken = (process.env.ADMIN_RECOVERY_TOKEN ?? '').replace(/\s+/g, '');
   if (!expectedToken || Buffer.byteLength(expectedToken) < 32) {
     return jsonError('Восстановление администратора не настроено.', 503);
   }
@@ -85,7 +87,7 @@ export async function POST(request: Request) {
     return jsonError('Некорректный запрос.', 400);
   }
 
-  const token = typeof body.token === 'string' ? body.token : '';
+  const token = typeof body.token === 'string' ? body.token.replace(/\s+/g, '') : '';
   const tokenBytes = Buffer.from(token);
   const expectedBytes = Buffer.from(expectedToken);
   if (tokenBytes.length !== expectedBytes.length || !timingSafeEqual(tokenBytes, expectedBytes)) {

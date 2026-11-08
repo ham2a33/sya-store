@@ -23,7 +23,7 @@ export default function AdminRecoverPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         cache: 'no-store',
-        body: JSON.stringify({ token, email, password }),
+        body: JSON.stringify({ token: token.replace(/\s+/g, ''), email, password }),
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok) {
