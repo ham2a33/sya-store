@@ -82,6 +82,7 @@ export default function AdminOrderDetailClient({ order }: { order: StoredOrder }
                   <th>Название</th>
                   <th>Цена</th>
                   <th>Количество</th>
+                  <th>Размер</th>
                   <th>Сумма</th>
                 </tr>
               </thead>
@@ -94,6 +95,7 @@ export default function AdminOrderDetailClient({ order }: { order: StoredOrder }
                     <td>{item.name}</td>
                     <td>{formatPrice(item.price)}</td>
                     <td>{item.quantity}</td>
+                    <td>{item.size ? `Размер: ${item.size}` : ''}</td>
                     <td>{formatPrice(item.total)}</td>
                   </tr>
                 ))}

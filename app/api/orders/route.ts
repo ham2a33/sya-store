@@ -38,6 +38,7 @@ export async function POST(request: Request) {
         ? body.items.map((item) => ({
             productId: String(item.productId ?? ''),
             quantity: Number(item.quantity),
+            size: typeof item.size === 'string' ? item.size.trim() : undefined,
           }))
         : [],
     });

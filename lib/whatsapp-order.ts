@@ -24,6 +24,7 @@ type WhatsAppLineItem = {
   name: string;
   price: number;
   quantity: number;
+  size?: string;
 };
 
 export type WhatsAppOrderDetails = {
@@ -54,6 +55,7 @@ export function buildWhatsAppOrderMessage(
     `   Артикул: ${item.article || item.productId}`,
     `   Количество: ${item.quantity}`,
     `   Цена: ${formatPrice(item.price)} за шт.`,
+    ...(item.size?.trim() ? [`   Размер: ${item.size.trim()}`] : []),
   ].join('\n')).join('\n');
 
   return renderWhatsAppTemplate(template, {

@@ -36,6 +36,7 @@ type CheckoutLineItem = {
   image: string;
   price: number;
   quantity: number;
+  size?: string;
 };
 
 const LAST_ORDER_KEY = 'sya-last-order';
@@ -60,6 +61,7 @@ export function loadLastOrder(orderId: string) {
 function buildLineItems(
   itemIds: string[],
   getProduct: (id: string) => Product | undefined,
+  sizes: Record<string, string>,
 ): CheckoutLineItem[] {
   const quantities = groupCartQuantities(itemIds);
   return Array.from(quantities.entries())
@@ -72,6 +74,7 @@ function buildLineItems(
         image: product.image,
         price: product.price,
         quantity,
+        ...(sizes[productId]?.trim() ? { size: sizes[productId].trim() } : {}),
       };
     })
     .filter((item): item is CheckoutLineItem => item != null);
@@ -79,7 +82,7 @@ function buildLineItems(
 
 export default function CheckoutClient() {
   const router = useRouter();
-  const { items, clearCart } = useCart();
+  const { items, sizes, clearCart } = useCart();
   const { getProduct } = useProducts();
   const [hydrated, setHydrated] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -111,8 +114,8 @@ export default function CheckoutClient() {
   }, []);
 
   const lineItems = useMemo(
-    () => buildLineItems(items, getProduct),
-    [items, getProduct],
+    () => buildLineItems(items, getProduct, sizes),
+    [items, getProduct, sizes],
   );
 
   const totalItems = lineItems.reduce((sum, item) => sum + item.quantity, 0);
@@ -168,6 +171,7 @@ export default function CheckoutClient() {
           items: lineItems.map((item) => ({
             productId: item.productId,
             quantity: item.quantity,
+            ...(item.size ? { size: item.size } : {}),
           })),
         }),
       });
@@ -391,6 +395,7 @@ export default function CheckoutClient() {
                       <p>
                         {item.quantity} × {formatPrice(item.price)}
                       </p>
+                      {item.size && <p>Размер: {item.size}</p>}
                     </div>
                     <strong>{formatPrice(item.price * item.quantity)}</strong>
                   </article>

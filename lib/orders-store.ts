@@ -85,25 +85,45 @@ function validateInput(input: CreateOrderInput): void {
     if (item.quantity > MAX_ORDER_ITEM_QUANTITY) {
       throw new OrderValidationError('Слишком большое количество товара', 'INVALID_QUANTITY');
     }
+    if (item.size !== undefined && item.size.length > 100) {
+      throw new OrderValidationError('Размер не должен превышать 100 символов', 'INVALID_SIZE');
+    }
   }
 }
 
-function aggregateItems(items: CreateOrderInput['items']): Map<string, number> {
-  const map = new Map<string, number>();
+type AggregatedOrderItem = { productId: string; quantity: number; size?: string };
+
+function aggregateItems(items: CreateOrderInput['items']): AggregatedOrderItem[] {
+  const map = new Map<string, AggregatedOrderItem>();
   for (const item of items) {
-    map.set(item.productId, (map.get(item.productId) ?? 0) + item.quantity);
+    const size = item.size?.trim() || undefined;
+    const key = `${item.productId}\0${size ?? ''}`;
+    const existing = map.get(key);
+    map.set(key, {
+      productId: item.productId,
+      quantity: (existing?.quantity ?? 0) + item.quantity,
+      size,
+    });
   }
-  return map;
+  return [...map.values()];
 }
 
 function buildOrderItems(
-  aggregated: Map<string, number>,
+  aggregated: AggregatedOrderItem[],
   products: StoredProduct[],
 ): OrderItem[] {
   const orderItems: OrderItem[] = [];
+  const quantitiesByProduct = new Map<string, number>();
+  for (const item of aggregated) {
+    quantitiesByProduct.set(
+      item.productId,
+      (quantitiesByProduct.get(item.productId) ?? 0) + item.quantity,
+    );
+  }
 
-  for (const [productId, quantity] of aggregated) {
-    const product = products.find((item) => item.id === productId);
+  for (const item of aggregated) {
+    const { productId, quantity, size } = item;
+    const product = products.find((productItem) => productItem.id === productId);
 
     if (!product || product.status === 'archived') {
       throw new OrderValidationError('Товар недоступен', 'PRODUCT_NOT_FOUND', {
@@ -118,7 +138,8 @@ function buildOrderItems(
       });
     }
 
-    if (quantity > product.stock) {
+    const totalQuantity = quantitiesByProduct.get(productId) ?? quantity;
+    if (totalQuantity > product.stock) {
       throw new OrderValidationError(
         `Товар «${product.name}» доступен только в количестве ${product.stock} шт.`,
         'INSUFFICIENT_STOCK',
@@ -132,6 +153,7 @@ function buildOrderItems(
       image: product.image,
       price: product.price,
       quantity,
+      ...(size ? { size } : {}),
       total: product.price * quantity,
     });
   }
@@ -141,10 +163,14 @@ function buildOrderItems(
 
 function applyStockDecrease(
   products: StoredProduct[],
-  aggregated: Map<string, number>,
+  aggregated: AggregatedOrderItem[],
 ): StoredProduct[] {
+  const quantities = new Map<string, number>();
+  for (const item of aggregated) {
+    quantities.set(item.productId, (quantities.get(item.productId) ?? 0) + item.quantity);
+  }
   return products.map((product) => {
-    const quantity = aggregated.get(product.id);
+    const quantity = quantities.get(product.id);
     if (!quantity) return product;
     return { ...product, stock: (product.stock ?? 0) - quantity };
   });
@@ -152,10 +178,14 @@ function applyStockDecrease(
 
 function revertStockIncrease(
   products: StoredProduct[],
-  aggregated: Map<string, number>,
+  aggregated: AggregatedOrderItem[],
 ): StoredProduct[] {
+  const quantities = new Map<string, number>();
+  for (const item of aggregated) {
+    quantities.set(item.productId, (quantities.get(item.productId) ?? 0) + item.quantity);
+  }
   return products.map((product) => {
-    const quantity = aggregated.get(product.id);
+    const quantity = quantities.get(product.id);
     if (!quantity) return product;
     return { ...product, stock: (product.stock ?? 0) + quantity };
   });

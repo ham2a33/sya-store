@@ -16,6 +16,7 @@ const STORAGE_KEY = 'sya-cart';
 
 type CartContextValue = {
   items: string[];
+  sizes: Record<string, string>;
   count: number;
   total: number;
   totalLabel: string;
@@ -28,6 +29,7 @@ type CartContextValue = {
   removeOneOf: (productId: string) => void;
   addOneOf: (productId: string) => void;
   removeProduct: (productId: string) => void;
+  setProductSize: (productId: string, size: string) => void;
   clearCart: () => void;
   getProductName: (productId: string) => string;
 };
@@ -52,14 +54,36 @@ function saveCartToStorage(items: string[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
 }
 
+function loadCartSizesFromStorage(): Record<string, string> {
+  if (typeof window === 'undefined') return {};
+  try {
+    const raw = localStorage.getItem(`${STORAGE_KEY}-sizes`);
+    if (!raw) return {};
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+    return Object.fromEntries(
+      Object.entries(parsed).filter((entry): entry is [string, string] => typeof entry[1] === 'string'),
+    );
+  } catch {
+    return {};
+  }
+}
+
+function saveCartSizesToStorage(sizes: Record<string, string>) {
+  if (typeof window === 'undefined') return;
+  localStorage.setItem(`${STORAGE_KEY}-sizes`, JSON.stringify(sizes));
+}
+
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const { getProduct } = useProducts();
   const [items, setItems] = useState<string[]>([]);
+  const [sizes, setSizes] = useState<Record<string, string>>({});
   const [cartOpen, setCartOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     setItems(loadCartFromStorage());
+    setSizes(loadCartSizesFromStorage());
     setHydrated(true);
   }, []);
 
@@ -67,6 +91,21 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     if (!hydrated) return;
     saveCartToStorage(items);
   }, [items, hydrated]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    const productIds = new Set(items);
+    setSizes((current) => {
+      const next = Object.fromEntries(Object.entries(current).filter(([id]) => productIds.has(id)));
+      saveCartSizesToStorage(next);
+      return next;
+    });
+  }, [items, hydrated]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    saveCartSizesToStorage(sizes);
+  }, [sizes, hydrated]);
 
   const addProduct = useCallback(
     (productId: string, quantity = 1) => {
@@ -127,6 +166,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     setItems((current) => current.filter((id) => id !== productId));
   }, []);
 
+  const setProductSize = useCallback((productId: string, size: string) => {
+    setSizes((current) => ({ ...current, [productId]: size }));
+  }, []);
+
   const clearCart = useCallback(() => {
     setItems([]);
   }, []);
@@ -143,6 +186,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo<CartContextValue>(
     () => ({
       items,
+      sizes,
       count: items.length,
       total,
       totalLabel: formatPrice(total),
@@ -155,10 +199,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       removeOneOf,
       addOneOf,
       removeProduct,
+      setProductSize,
       clearCart,
       getProductName: (productId) => getProduct(productId)?.name ?? 'Товар',
     }),
-    [items, total, cartOpen, addProduct, removeOne, addOne, removeOneOf, addOneOf, removeProduct, clearCart, getProduct],
+    [items, sizes, total, cartOpen, addProduct, removeOne, addOne, removeOneOf, addOneOf, removeProduct, setProductSize, clearCart, getProduct],
   );
 
   return (

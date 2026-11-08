@@ -101,6 +101,7 @@ export type OrderItem = {
   image: string;
   price: number;
   quantity: number;
+  size?: string;
   total: number;
 };
 
@@ -133,5 +134,5 @@ export type CreateOrderInput = {
   customer: OrderCustomer;
   delivery: OrderDelivery;
   comment?: string;
-  items: { productId: string; quantity: number }[];
+  items: { productId: string; quantity: number; size?: string }[];
 };

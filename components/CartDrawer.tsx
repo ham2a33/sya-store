@@ -51,6 +51,8 @@ export default function CartDrawer() {
     removeOneOf,
     addOneOf,
     removeProduct,
+    sizes,
+    setProductSize,
   } = useCart();
   const { getProduct } = useProducts();
 
@@ -89,6 +91,16 @@ export default function CartDrawer() {
                   <div className="cart-item-body">
                     <h4 className="cart-item-name">{item.name}</h4>
                     <p className="cart-item-price">{formatPrice(item.price)}</p>
+                    <label className="cart-item-size">
+                      <span>Размер</span>
+                      <input
+                        type="text"
+                        value={sizes[item.id] ?? ''}
+                        onChange={(event) => setProductSize(item.id, event.target.value)}
+                        placeholder="Например: кольцо 17, браслет 18 см"
+                        maxLength={100}
+                      />
+                    </label>
                     <div className="cart-item-actions">
                       <div className="qty cart-item-qty">
                         <button
