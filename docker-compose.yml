@@ -36,7 +36,6 @@ services:
       SESSION_SECRET: ${SESSION_SECRET:?Set SESSION_SECRET in .env}
       ADMIN_EMAIL: ${ADMIN_EMAIL:-}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
-      ADMIN_RECOVERY_TOKEN: ${ADMIN_RECOVERY_TOKEN:-}
     expose:
       - "3000"
     volumes:
