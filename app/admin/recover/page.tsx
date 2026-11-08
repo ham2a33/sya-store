@@ -83,11 +83,11 @@ export default function AdminRecoverPage() {
                 value={password}
                 onChange={(event) => setPassword(event.target.value)}
                 required
-                minLength={16}
+                minLength={8}
                 autoComplete="new-password"
               />
             </label>
-            <p>Используйте пароль длиной не менее 16 символов.</p>
+            <p>Используйте пароль длиной не менее 8 символов.</p>
             {error && <p className="admin-error" role="alert">{error}</p>}
             <button type="submit" className="dark-btn admin-submit" disabled={loading}>
               {loading ? 'ВОССТАНОВЛЕНИЕ…' : 'ВОССТАНОВИТЬ ДОСТУП'}

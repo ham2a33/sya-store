@@ -97,8 +97,8 @@ export async function POST(request: Request) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return jsonError('Укажите корректный email.', 400);
   }
-  if (password.length < 16) {
-    return jsonError('Пароль должен содержать не менее 16 символов.', 400);
+  if (password.length < 8) {
+    return jsonError('Пароль должен содержать не менее 8 символов.', 400);
   }
 
   let lockHandle;
